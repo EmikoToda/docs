@@ -5,6 +5,7 @@ on:
 
 jobs:
   build:
+    if: github.repository == 'doc4d/docs'
     strategy:
       matrix:
         language: ["en", "fr", "es", "ja", "pt"]
