@@ -10,11 +10,14 @@ on:
 
 jobs:
   check:
+    if: github.repository == 'doc4d/docs'
     uses: ./.github/workflows/workflow-syntax-check.yml
   build:
+    if: github.repository == 'doc4d/docs'
     uses: ./.github/workflows/workflow-build.yml
     concurrency:
       group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}-build
       cancel-in-progress:  true
   build-static:
+    if: github.repository == 'doc4d/docs'
     uses: ./.github/workflows/workflow-build-static.yml

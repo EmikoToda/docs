@@ -6,14 +6,18 @@ on:
     
 jobs:
   workflow-check:
+    if: github.repository == 'doc4d/docs'
     uses: ./.github/workflows/workflow-syntax-check.yml
   workflow-build:
+    if: github.repository == 'doc4d/docs'
     uses: ./.github/workflows/workflow-build.yml
   workflow-static:
+    if: github.repository == 'doc4d/docs'
     uses: ./.github/workflows/workflow-build-static.yml
 
   gh-release:
     needs: [workflow-build]
+    if: github.repository == 'doc4d/docs'
     name: 'Deploy website'
     runs-on: ubuntu-latest
     permissions:
@@ -33,6 +37,7 @@ jobs:
 
   publish-release:
     needs: [workflow-static]
+    if: github.repository == 'doc4d/docs'
     name: 'Publish Release'
     runs-on: ubuntu-latest
     permissions:
