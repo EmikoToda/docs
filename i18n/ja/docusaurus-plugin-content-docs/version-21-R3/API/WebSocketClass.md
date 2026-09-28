@@ -206,7 +206,7 @@ This.headers.Cookie:="yummy_cookie=choco; tasty_cookie=strawberry"
 | 型      | 内容                                                                                               |
 | ------ | ------------------------------------------------------------------------------------------------ |
 | Text   | UTF-8 のテキスト                                                                                      |
-| BLOB   | バイナリデータ                                                                                          |
+| BLOB   | バイナリーデータ                                                                                          |
 | Object | JSON UTF-8 形式のテキスト([`JSON Stringify`](../commands/json-stringify) と同じ結果になります) |
 
 <!-- END REF -->

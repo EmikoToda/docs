@@ -47,7 +47,7 @@ displayed_sidebar: docs
 
 1. 4Dの内部SQLカーネルを使用する場合、SQL Asynchronousオプションは意味を持ちません。この場合常に同期接続が使用されます。
 2. MIBEnum番号は、次のアドレスで参照できます。 <http://www.iana.org/assignments/character-sets>
-3. SQL Charsetの*value*と して-2を渡すと、4D SQLサーバが使用するエンコーディングは、自動で実行中のプラットフォームに合わせて適用されます (非Unicodeエンコーディング):  
+3. SQL Charsetの*value*と して-2を渡すと、4D SQLサーバーが使用するエンコーディングは、自動で実行中のプラットフォームに合わせて適用されます (非Unicodeエンコーディング):  
    * Windowsでは ISO8859-1が使用されます。  
    * Mac OSではMAC-ROMANが使用されます。
 

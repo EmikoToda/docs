@@ -30,11 +30,11 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.SQL EXECUTE SCRIPT.Summary-->SQL EXECUTE SCRIPTコマンドを使用して、*scriptPath*で指定されたスクリプトファイルに書かれた一連のSQLステートメントを実行できます。<!-- END REF-->このコマンドはローカルマシン (ローカルの4Dまたは4D Server上のストアドプロシージャ) でのみ実行できます。またこのコマンドはカレントデータベース (内部あるいはエクスターナルデータベース) に対して動作します。
+<!--REF #_command_.SQL EXECUTE SCRIPT.Summary-->SQL EXECUTE SCRIPTコマンドを使用して、*scriptPath*で指定されたスクリプトファイルに書かれた一連のSQLステートメントを実行できます。<!-- END REF-->このコマンドはローカルマシン (ローカルの4Dまたは4D Server上のストアドプロシージャー) でのみ実行できます。またこのコマンドはカレントデータベース (内部あるいはエクスターナルデータベース) に対して動作します。
 
 **Note**: このコマンドは直接あるいはODBC経由で開かれた外部接続では使用できません。
 
-*scriptPath*引数には実行するSQL文が書かれたテキストファイルの完全パス名を渡します。パス名は現在のシステムのシンタックスを使用して表現されなければなりません。*scriptPath*に空の文字列 ("") を渡すと、標準のファイルを開くダイアログボックスが表示され、実行するファイルをユーザが選択できます。
+*scriptPath*引数には実行するSQL文が書かれたテキストファイルの完全パス名を渡します。パス名は現在のシステムのシンタックスを使用して表現されなければなりません。*scriptPath*に空の文字列 ("") を渡すと、標準のファイルを開くダイアログボックスが表示され、実行するファイルをユーザーが選択できます。
 
 **Note**: [SQL EXPORT DATABASE](sql-export-database.md "SQL EXPORT DATABASE")と[SQL EXPORT SELECTION](sql-export-selection.md "SQL EXPORT SELECTION")コマンドは自動でこのスクリプトファイルを作成します。
 
@@ -64,7 +64,7 @@ displayed_sidebar: docs
 スクリプトが (エラーなく) 正しく実行されると、OK変数に1が設定されます。エラーが発生した場合、OKシステム変数に0が設定されるか、または*errorAction*引数に設定に基づき: 
 
 * *errorAction* がSQL On error abort (値1) の場合、OKは0に設定されます。
-* *errorAction*がSQL On error confirm (値2) の場合、ユーザが処理を中断するとOKに0が、続行を選択すると1が設定されます。
+* *errorAction*がSQL On error confirm (値2) の場合、ユーザーが処理を中断するとOKに0が、続行を選択すると1が設定されます。
 * *errorAction*がSQL On error continue (値3) の場合、OKは常に1が設定されます。
 
 **Note:** 大量のデータ読み込みなど、メモリを消費するアクションを実行するためにこのコマンドを使用する場合、一時的にSQLオプションを無効にするために新しいSQLのALTER DATABASEコマンドの実行を検討できます。

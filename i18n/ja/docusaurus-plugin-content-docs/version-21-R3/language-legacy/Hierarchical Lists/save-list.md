@@ -12,7 +12,7 @@ displayed_sidebar: docs
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
 | list | Integer | &#8594; | リスト参照番号 |
-| listName | Text | &#8594; | デザインモードのリストエディタに 登録されるリスト名 |
+| listName | Text | &#8594; | デザインモードのリストエディターに 登録されるリスト名 |
 </div>
 <!-- END REF-->
 
@@ -28,7 +28,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.SAVE LIST.Summary-->SAVE LIST コマンドは、デザインモードのリストエディタに、*list* 引数に渡した参照番号を持つリストを*listName* 引数に渡した名前で保存します。<!-- END REF-->
+<!--REF #_command_.SAVE LIST.Summary-->SAVE LIST コマンドは、デザインモードのリストエディターに、*list* 引数に渡した参照番号を持つリストを*listName* 引数に渡した名前で保存します。<!-- END REF-->
 
 既にその名前のリストが存在する場合は、その内容が置き換えられます。
 

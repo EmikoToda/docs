@@ -14,7 +14,7 @@ displayed_sidebar: docs
 | menu | Integer | &#8594; | メニュー番号またはメニュー参照 |
 | afterItem | Integer | &#8594; | メニュー項目番号 |
 | itemText | Text | &#8594; | 挿入するメニュー項目のテキスト |
-| subMenu | Text | &#8594; | 項目に割り当てるサブメニュの参照 |
+| subMenu | Text | &#8594; | 項目に割り当てるサブメニューの参照 |
 | process | Integer | &#8594; | プロセス参照番号 |
 | * | 演算子 | &#8594; | 指定時: メタ文字を標準文字として扱う |
 </div>

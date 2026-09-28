@@ -34,7 +34,7 @@ displayed_sidebar: docs
 階層リストを作成するコマンドは、この他にもあります:
 
 * [Copy list](copy-list.md "Copy list") は、既存のリストからリストを複製します。
-* [Load list](load-list.md "Load list") は、デザインモードのリストエディタで (手動またはプログラムによって) 作成された選択リストをロードすることによりリストを作成します。
+* [Load list](load-list.md "Load list") は、デザインモードのリストエディターで (手動またはプログラムによって) 作成された選択リストをロードすることによりリストを作成します。
 * [BLOB to list](blob-to-list.md "BLOB to list") は、前回保存されたBLOBのコンテンツからリストを作成します。
 
 New listを使用して階層リストを作成した後は、以下のことが行えます:

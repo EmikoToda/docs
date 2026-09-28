@@ -32,7 +32,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.PRINT SELECTION.Summary-->**PRINT SELECTION** は、*aTable*のカレントセレクションを印刷します。<!-- END REF-->レコードは、カレントプロセスのテーブルのカレント出力フォームを使用して印刷されます。**PRINT SELECTION**は、デザインモードの**プリント...**メニューと同じ動作を実行します。セレクションが空の場合、**PRINT SELECTION** は何も行いません。
 
-デフォルトで、**PRINT SELECTION** は印刷の前にプリントジョブダイアログボックスを表示します。ユーザが印刷ダイアログボックスをキャンセルをした場合、コマンドはキャンセルされ、印刷を行いません。  
+デフォルトで、**PRINT SELECTION** は印刷の前にプリントジョブダイアログボックスを表示します。ユーザーが印刷ダイアログボックスをキャンセルをした場合、コマンドはキャンセルされ、印刷を行いません。  
 オプション引数の *\** または *\>* を使用して、ダイアログボックスの表示を取り消すことができます:
 
 * *\** 引数は、現在の印刷設定 (デフォルトの設定、もしくは *\_o\_PAGE SETUP* や [SET PRINT OPTION](../commands/set-print-option) コマンドで定義した設定) に従い、印刷処理を行います。
@@ -40,10 +40,10 @@ displayed_sidebar: docs
 
 印刷中には、デザインモードのプロパティリストウィンドウで有効にされたフォームおよびオブジェクトのイベントと、実際に発生しているイベントに応じて、出力フォームのフォームメソッドとオブジェクトメソッドが実行されます:
 
-* On Headerイベントはヘッダを印刷する直前に生成されます。
+* On Headerイベントはヘッダーを印刷する直前に生成されます。
 * On Printing Detailイベントはレコードを印刷する直前に生成されます。
 * On Printing Breakイベントはブレークエリアを印刷する直前に生成されます。
-* On Printing Footerイベントははフッタを印刷する直前に生成されます。
+* On Printing Footerイベントははフッターを印刷する直前に生成されます。
 
 **PRINT SELECTION** が最初のヘッダーを印刷しているかどうかは、On Headerイベントで [Before selection](../commands/before-selection) を判定することによって調べることができます。またOn Printing Footerイベントで [End selection](../commands/end-selection) を判定することによって、最後のフッターかどうかをチェックすることができます。これら関数の詳細は、それぞれのコマンドや [Form event code](../commands/form-event-code)、[Level](../commands/level) の説明を参照してください。
 
@@ -51,7 +51,7 @@ displayed_sidebar: docs
 
 **警告:** **PRINT SELECTION** のコンテキストで [PAGE BREAK](../commands/page-break) コマンドを使用してはいけません。[PAGE BREAK](../commands/page-break) は [Print form](../commands/print-form) のコンテキストで使用します。
 
-**PRINT SELECTION** の呼び出し後、プリントが正常に終了するとシステム変数OKに1がセットされます。プリントが中断された場合には、システム変数OKには0がセットされます（例えばユーザが印刷ダイアログボックスでキャンセルをクリックした場合）。
+**PRINT SELECTION** の呼び出し後、プリントが正常に終了するとシステム変数OKに1がセットされます。プリントが中断された場合には、システム変数OKには0がセットされます（例えばユーザーが印刷ダイアログボックスでキャンセルをクリックした場合）。
 
 **4D Server:** このコマンドは、ストアドプロシージャーで4D Server上で実行することができます。この状況では、次の制約があります:
 
@@ -60,7 +60,7 @@ displayed_sidebar: docs
 
 ## 例題 
 
-以下の例は、最初に\[People\]テーブルのすべてのレコードを選択します。次に[DISPLAY SELECTION](display-selection.md "DISPLAY SELECTION")コマンドを使用してすべてのレコードを表示し、ユーザがプリントするレコードを選択します。最後に[USE SET](use-set.md "USE SET")コマンドにより、選択されたレコードをPRINT SELECTIONで印刷します:
+以下の例は、最初に\[People\]テーブルのすべてのレコードを選択します。次に[DISPLAY SELECTION](display-selection.md "DISPLAY SELECTION")コマンドを使用してすべてのレコードを表示し、ユーザーがプリントするレコードを選択します。最後に[USE SET](use-set.md "USE SET")コマンドにより、選択されたレコードをPRINT SELECTIONで印刷します:
 
 ```4d
  ALL RECORDS([People]) // 全レコード選択

@@ -190,7 +190,7 @@ The <!-- REF #WebServerClass.debugLog.Summary -->HTTPリクエストログファ
 
 *読み取り専用プロパティ*
 
-<!-- REF #WebServerClass.handlers.Summary -->カスタムHTTP ハンドラオブジェクトのコレクション<!-- END REF -->。 HTTP ハンドラオブジェクトには聞いているURL パターン、管理される動詞(メソッド)、そして呼び出されるべきコードが格納されています。 HTTP ハンドラはHTTPHandlers.json ファイルまたは[`.start()`](#start) 関数の*settings* 引数で定義することができます。 詳細については[HTTP リクエストハンドラ](../WebServer/http-request-handler.md) のページを参照してください。
+<!-- REF #WebServerClass.handlers.Summary -->カスタムHTTP ハンドラーオブジェクトのコレクション<!-- END REF -->。 HTTP ハンドラーオブジェクトには聞いているURL パターン、管理される動詞(メソッド)、そして呼び出されるべきコードが格納されています。 HTTP ハンドラーはHTTPHandlers.json ファイルまたは[`.start()`](#start) 関数の*settings* 引数で定義することができます。 詳細については[HTTP リクエストハンドラー](../WebServer/http-request-handler.md) のページを参照してください。
 
 <!-- END REF -->
 

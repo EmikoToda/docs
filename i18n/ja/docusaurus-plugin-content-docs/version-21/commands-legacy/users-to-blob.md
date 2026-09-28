@@ -28,7 +28,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.USERS TO BLOB.Summary-->**互換性に関する注記:* このコマンドはバイナリデータベースでのみ機能します。<!-- END REF-->プロジェクトデータベースにおいては空のBLOBが返されます。* 
+<!--REF #_command_.USERS TO BLOB.Summary-->**互換性に関する注記:* このコマンドはバイナリーデータベースでのみ機能します。<!-- END REF-->プロジェクトデータベースにおいては空のBLOBが返されます。* 
 
 **USERS TO BLOB** コマンドは、管理者によって作成されたすべてのユーザーアカウントとデータベースグループのリストをBLOB *users* に格納します。
 

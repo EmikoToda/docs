@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| selector | Integer | &#8594;  | オブジェクトカテゴリ |
+| selector | Integer | &#8594;  | オブジェクトカテゴリー |
 | 戻り値 | Text | &#8592; | オブジェクトの名前 |
 </div>
 <!-- END REF-->

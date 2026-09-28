@@ -32,7 +32,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.ENCRYPT BLOB.Summary-->ENCRYPT BLOB コマンドは、*toEncrypt* BLOBの内容を送信者の秘密鍵*sendPrivKey*を使用して暗号化します。<!-- END REF-->オプションとして、同時に受信者の公開鍵*recipPubKey*も使用できます。これらの鍵は、[GENERATE ENCRYPTION KEYPAIR](../commands/generate-encryption-keypair) （セキュアプロトコルテーマ）を使用して生成します。 
 
-**Note:** このコマンドは、TLSプロトコルアルゴリズムおよび暗号化機能を利用します。したがって、このコマンドを使用するためには、4D Webサーバ通信にTLSを使用しない場合でも、TLSプロトコルに必要となる各コンポーネントがマシン上に正しくインストールされているか確認してください。このプロトコルについての詳細は、[WEB SERVICE SET PARAMETER](../commands/web-service-set-parameter) の節を参照してください。
+**Note:** このコマンドは、TLSプロトコルアルゴリズムおよび暗号化機能を利用します。したがって、このコマンドを使用するためには、4D Webサーバー通信にTLSを使用しない場合でも、TLSプロトコルに必要となる各コンポーネントがマシン上に正しくインストールされているか確認してください。このプロトコルについての詳細は、[WEB SERVICE SET PARAMETER](../commands/web-service-set-parameter) の節を参照してください。
 
 * 送信者の秘密鍵のみを暗号化に使用されると、公開鍵の所有者だけがこの情報を読み取れます。このシステムにより、送信者自身が情報の暗号化を行ったということが保証されます。
 * 送信者の秘密鍵と受信者の公開鍵を同時に使用することにより、情報の読み取りを行えるのは1人の受信者だけであることが保証されます。

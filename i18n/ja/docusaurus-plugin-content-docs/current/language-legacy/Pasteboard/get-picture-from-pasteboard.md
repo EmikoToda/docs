@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| picture | Picture | &#8592; | ペーストボードから取り出したピクチャ |
+| picture | Picture | &#8592; | ペーストボードから取り出したピクチャー |
 </div>
 <!-- END REF-->
 
@@ -34,7 +34,7 @@ displayed_sidebar: docs
 
 ## 例題 
 
-以下のボタンオブジェクトメソッドは、ペーストボード中にピクチャ (jpeg または gif フォーマット)があれば、フィールド \[Employees\]Photoに代入します:
+以下のボタンオブジェクトメソッドは、ペーストボード中にピクチャー (jpeg または gif フォーマット)があれば、フィールド \[Employees\]Photoに代入します:
 
 ```4d
  If(Pasteboard data size("com.4d.private.picuture.jpeg")>0)|(Pasteboard data size("com.4d.private.picture.gif")>0))
@@ -46,7 +46,7 @@ displayed_sidebar: docs
 
 ## システム変数およびセット 
 
-ピクチャが正しく取り出されるとOKに1が、そうでなければ0が設定されます。
+ピクチャーが正しく取り出されるとOKに1が、そうでなければ0が設定されます。
 
 ## 参照 
 

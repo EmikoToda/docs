@@ -19,7 +19,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.RECEIVE RECORD.Summary-->RECEIVE RECORDは、[SET CHANNEL](set-channel.md "SET CHANNEL")コマンドで開いたシリアルポートまたはドキュメントから*table*にレコードを受信します。<!-- END REF-->受信するレコードは[SEND RECORD](send-record.md "SEND RECORD")で送信したものでなければなりません。RECEIVE RECORDを実行すると、*table*に新しいレコードが自動で作成されます。レコードを正しく受信した時点で、[SAVE RECORD](save-record.md "SAVE RECORD")コマンドを使用して新しいレコードを保存します。
 
-完全なレコードを受信します。つまりレコードにあるいはレコードとともに格納されたピクチャやBLOBも受信します。
+完全なレコードを受信します。つまりレコードにあるいはレコードとともに格納されたピクチャーやBLOBも受信します。
 
 **重要**: [SEND RECORD](send-record.md "SEND RECORD") と RECEIVE RECORDを使用してレコードが送受信される場合、送信元と送信先のテーブル構造は互換性のあるものでなくてはなりません。互換性がない場合、RECEIVE RECORDコマンドの実行時4Dがテーブル定義に応じて値を変換します。
 
@@ -30,9 +30,9 @@ displayed_sidebar: docs
 
 ## 例題 
 
-データのアーカイブ作成や、異なる場所で使用されている同じシングルユーザデータベース間でデータをやり取りする際には、[SEND VARIABLE](send-variable.md "SEND VARIABLE"), [SEND RECORD](send-record.md "SEND RECORD"), [RECEIVE VARIABLE](receive-variable.md "RECEIVE VARIABLE") そして RECEIVE RECORDコマンドを組み合わせて使用するとよいでしょう。[EXPORT TEXT](export-text.md "EXPORT TEXT") や [IMPORT TEXT](import-text.md "IMPORT TEXT")等の読み込み/書き出しコマンドを利用して、4Dデータベース間でデータ交換を実行できます。しかしデータ中にグラフィックやリレートテーブルが含まれる場合には、[SEND RECORD](send-record.md "SEND RECORD") と RECEIVE RECORDを使う方がはるかに便利です。 
+データのアーカイブ作成や、異なる場所で使用されている同じシングルユーザーデータベース間でデータをやり取りする際には、[SEND VARIABLE](send-variable.md "SEND VARIABLE"), [SEND RECORD](send-record.md "SEND RECORD"), [RECEIVE VARIABLE](receive-variable.md "RECEIVE VARIABLE") そして RECEIVE RECORDコマンドを組み合わせて使用するとよいでしょう。[EXPORT TEXT](export-text.md "EXPORT TEXT") や [IMPORT TEXT](import-text.md "IMPORT TEXT")等の読み込み/書き出しコマンドを利用して、4Dデータベース間でデータ交換を実行できます。しかしデータ中にグラフィックやリレートテーブルが含まれる場合には、[SEND RECORD](send-record.md "SEND RECORD") と RECEIVE RECORDを使う方がはるかに便利です。 
 
-例えば、4Dと4D Writeを使用して作成されたドキュメントシステムを考えてみます。別々の場所にいる複数の製作者が作業を実行するため、異なるデータベース間でデータをやり取りする簡単な方法が必 要となりました。以下の図はこのデータベースストラクチャを簡単に表わしたものです:
+例えば、4Dと4D Writeを使用して作成されたドキュメントシステムを考えてみます。別々の場所にいる複数の製作者が作業を実行するため、異なるデータベース間でデータをやり取りする簡単な方法が必 要となりました。以下の図はこのデータベースストラクチャーを簡単に表わしたものです:
 
 ![](../assets/en/commands/pict16652.en.png)
 
@@ -141,7 +141,7 @@ displayed_sidebar: docs
 ```
 
   
-デー タ受信中にシステム変数OKの評価も行わず、またエラーの検出も行っていない点に注意してください。しかし、ドキュメントそのものを表わす変数をドキュメントに保存するため、これらの変数がいったん受信され意味を持つ場合には、エラーの可能性は低くなります。例えば、ユーザが誤ったドキュメントをオープン した場合、この処理は最初の判定式で即座に中断されます。
+デー タ受信中にシステム変数OKの評価も行わず、またエラーの検出も行っていない点に注意してください。しかし、ドキュメントそのものを表わす変数をドキュメントに保存するため、これらの変数がいったん受信され意味を持つ場合には、エラーの可能性は低くなります。例えば、ユーザーが誤ったドキュメントをオープン した場合、この処理は最初の判定式で即座に中断されます。
 
 ## システム変数およびセット 
 

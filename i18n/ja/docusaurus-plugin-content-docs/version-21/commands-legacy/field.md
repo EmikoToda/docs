@@ -15,10 +15,10 @@ displayed_sidebar: docs
 | --- | --- | --- | --- |
 | tableNum | Integer | &#8594;  | テーブル番号 |
 | fieldNum | Integer | &#8594;  | フィールド番号 |
-| 戻り値 | Pointer | &#8592; | フィールドポインタ |
+| 戻り値 | Pointer | &#8592; | フィールドポインター |
 | Field ( fieldPtr ) -> 戻り値 |
 | 引数 | 型 | 説明 |
-| fieldPtr | Pointer | &#8594;  | フィールドポインタ |
+| fieldPtr | Pointer | &#8594;  | フィールドポインター |
 | 戻り値 | Integer | &#8592; | フィールド番号 |
 </div>
 <!-- END REF-->
@@ -27,12 +27,12 @@ displayed_sidebar: docs
 
 <!--REF #_command_.Field.Summary-->Field コマンドには、2つの形式があります。<!-- END REF-->
 
-* *tableNum*と*fieldNum*を指定した場合、Fieldはフィールドへのポインタを返します。
+* *tableNum*と*fieldNum*を指定した場合、Fieldはフィールドへのポインターを返します。
 * *fieldPtr*を指定した場合には、Fieldはフィールド番号を返します。
 
 ## 例題 1 
 
-以下の例は、変数*fieldPtr*にテーブル番号=3、フィールド番号=2のフィールドへのポインタを代入します。
+以下の例は、変数*fieldPtr*にテーブル番号=3、フィールド番号=2のフィールドへのポインターを代入します。
 
 ```4d
  FieldPtr:=Field(3;2)
@@ -40,7 +40,7 @@ displayed_sidebar: docs
 
 ## 例題 2 
 
-*fieldPtr* (テーブルの2番目のフィールドを指すポインタ) をField に渡すと、数値2を返します。  
+*fieldPtr* (テーブルの2番目のフィールドを指すポインター) をField に渡すと、数値2を返します。  
 以下の例を実行すると変数FieldNumに2を代入します。
 
 ```4d

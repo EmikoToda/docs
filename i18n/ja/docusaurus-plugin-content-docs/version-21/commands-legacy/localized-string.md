@@ -20,7 +20,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.Localized string.Summary-->Localized stringコマンドは、*resName*の属性によって指定された、カレントランゲージの文字列を返します。<!-- END REF-->
 
-このコマンドは、XLIFFのアーキテクチャ内だけで機能します。このタイプのアーキテクチャに関する詳細は、*Design Reference*マニュアルにあるXLIFFサポートを参照してください。
+このコマンドは、XLIFFのアーキテクチャー内だけで機能します。このタイプのアーキテクチャーに関する詳細は、*Design Reference*マニュアルにあるXLIFFサポートを参照してください。
 
 **Note:** [Get database localization](get-database-localization.md "Get database localization")コマンドを使用して、アプリケーションで使用するランゲージを調べることができます。
 

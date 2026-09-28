@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| picture | Picture | &#8594; | メタデータを読むピクチャ |
+| picture | Picture | &#8594; | メタデータを読むピクチャー |
 | metaName | Text | &#8594; | 取得するブロックの名前またはパス |
 | metaContents | Variable | &#8592; | メタデータの内容 |
 </div>
@@ -29,7 +29,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.GET PICTURE METADATA.Summary-->**GET PICTURE METADATA**コマンドを使用して *picture* で指定したピクチャ (4Dのピクチャフィールドや変数) 内のメタデータ (またはメタタグ) の内容を読みだすことができます。<!-- END REF--> メタデータに関する詳細は[SET PICTURE METADATA](../commands/set-picture-metadata)コマンドの説明を参照してください。
+<!--REF #_command_.GET PICTURE METADATA.Summary-->**GET PICTURE METADATA**コマンドを使用して *picture* で指定したピクチャー (4Dのピクチャーフィールドや変数) 内のメタデータ (またはメタタグ) の内容を読みだすことができます。<!-- END REF--> メタデータに関する詳細は[SET PICTURE METADATA](../commands/set-picture-metadata)コマンドの説明を参照してください。
 
 *metaName*引数には取り出すメタデータのタイプを指定する文字列を渡します。以下を渡すことができます:
 
@@ -44,7 +44,7 @@ displayed_sidebar: docs
 
 ## 例題 1 
 
-DOMツリーストラクチャを使用する
+DOMツリーストラクチャーを使用する
 
 ```4d
  $xml:=DOM Create XML Ref("Root") // XML DOMツリーの作成

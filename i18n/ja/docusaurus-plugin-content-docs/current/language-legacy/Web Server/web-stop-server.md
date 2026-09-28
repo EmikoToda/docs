@@ -28,8 +28,8 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.WEB STOP SERVER.Summary-->**WEB STOP SERVER**コマンドは、実行中の4Dアプリケーション上で、Webサーバを停止します 。<!-- END REF-->Webサーバが既に起動している場合、すべてのWeb接続は停止し、すべてのWebプロセスが終了します。   
-Webサーバが起動していない場合、コマンドは何も行いません。
+<!--REF #_command_.WEB STOP SERVER.Summary-->**WEB STOP SERVER**コマンドは、実行中の4Dアプリケーション上で、Webサーバーを停止します 。<!-- END REF-->Webサーバーが既に起動している場合、すべてのWeb接続は停止し、すべてのWebプロセスが終了します。   
+Webサーバーが起動していない場合、コマンドは何も行いません。
 
 ## 参照 
 

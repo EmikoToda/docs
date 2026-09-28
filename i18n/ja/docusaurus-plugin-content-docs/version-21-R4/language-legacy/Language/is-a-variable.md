@@ -11,8 +11,8 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| aPointer | Pointer | &#8594; | テストするポインタ |
-| 戻り値 | Boolean | &#8592; | TRUE = 変数のポインタ FALSE = 変数以外のポインタ |
+| aPointer | Pointer | &#8594; | テストするポインター |
+| 戻り値 | Boolean | &#8592; | TRUE = 変数のポインター FALSE = 変数以外のポインター |
 </div>
 <!-- END REF-->
 
