@@ -22,6 +22,9 @@
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version",
     "translate-commit": "node ./tools/propagate-commit-translations.js",
+    "ja:check": "node ./tools/ja-normalize/index.js",
+    "ja:fix": "node ./tools/ja-normalize/index.js --fix",
+    "ja:test": "node --test ./tools/ja-normalize/test.js",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus"

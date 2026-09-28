@@ -1,0 +1,18 @@
+#!/bin/sh
+# 日本語テクニカル用語の表記ゆれをコミット前に検査します。
+#
+# 有効化:
+#   git config core.hooksPath .githooks
+# 一時的に回避:
+#   git commit --no-verify
+
+files=$(git diff --cached --name-only --diff-filter=ACM -- 'i18n/ja/*' | grep -E '\.(md|mdx|json)$')
+[ -z "$files" ] && exit 0
+
+# shellcheck disable=SC2086
+if ! node tools/ja-normalize/index.js $files; then
+  echo ""
+  echo "表記ゆれが検出されました。'npm run ja:fix' で修正するか、"
+  echo "意図的な表記であれば tools/ja-normalize/exceptions.tsv に例外を追加してください。"
+  exit 1
+fi

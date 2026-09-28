@@ -1,0 +1,84 @@
+name: ja-normalize
+
+# 日本語テクニカル用語の表記ゆれ (プロシージャ → プロシージャー 等) を検査します。
+# - Pull Request / push 時: 検査のみをおこない、表記ゆれがあれば失敗します。
+# - 手動実行 (workflow_dispatch): 一括修正して Pull Request を作成できます。
+
+on:
+  pull_request:
+    paths:
+      - 'i18n/ja/**'
+      - 'tools/ja-normalize/**'
+      - '.github/workflows/ja-normalize.yml'
+  push:
+    paths:
+      - 'i18n/ja/**'
+      - 'tools/ja-normalize/**'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '実行モード'
+        type: choice
+        required: true
+        default: check
+        options:
+          - check
+          - fix
+      target:
+        description: '対象パス (既定: i18n/ja)'
+        type: string
+        required: false
+        default: 'i18n/ja'
+
+jobs:
+  ja-normalize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '22.x'
+
+      - name: Run glossary tests
+        run: node --test tools/ja-normalize/test.js
+
+      - name: Check Japanese terminology
+        if: inputs.mode != 'fix'
+        run: |
+          set -o pipefail
+          node tools/ja-normalize/index.js ${{ inputs.target || 'i18n/ja' }} | tee report.txt || status=$?
+          {
+            echo '## 日本語表記ゆれチェック'
+            echo ''
+            echo '```'
+            tail -n 60 report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit ${status:-0}
+
+      - name: Fix Japanese terminology
+        if: inputs.mode == 'fix'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET: ${{ inputs.target || 'i18n/ja' }}
+        run: |
+          node tools/ja-normalize/index.js --fix --summary "$TARGET" | tee report.txt
+          if git diff --quiet; then
+            echo '表記ゆれは見つかりませんでした。' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          branch="ja-normalize/$(date +%Y%m%d-%H%M%S)"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git switch -c "$branch"
+          git add -A "$TARGET"
+          git commit -m 'docs(ja): normalize technical terminology'
+          git push origin "$branch"
+          gh pr create \
+            --base "${{ github.ref_name }}" \
+            --head "$branch" \
+            --title 'docs(ja): 日本語テクニカル用語の表記ゆれを正規化' \
+            --body "$(printf '`tools/ja-normalize` による自動正規化です。\n\n```\n%s\n```\n' "$(tail -n 60 report.txt)")"
