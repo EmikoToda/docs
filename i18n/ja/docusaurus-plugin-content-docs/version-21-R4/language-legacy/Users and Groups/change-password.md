@@ -17,13 +17,13 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.CHANGE PASSWORD.Summary-->CHANGE PASSWORD コマンドを使用して、カレントユーザのパスワードを変更できます。<!-- END REF-->このコマンドは現在のパスワードを、引数 *password* に渡した新しいパスワードに置き換えます。 
+<!--REF #_command_.CHANGE PASSWORD.Summary-->CHANGE PASSWORD コマンドを使用して、カレントユーザーのパスワードを変更できます。<!-- END REF-->このコマンドは現在のパスワードを、引数 *password* に渡した新しいパスワードに置き換えます。 
 
 **警告:** パスワードでは大文字小文字が区別されます。
 
 ## 例題 
 
-以下の例題を使用して、ユーザがパスワードの変更を行います。
+以下の例題を使用して、ユーザーがパスワードの変更を行います。
 
 ```4d
  CHANGE CURRENT USER //ユーザにパスワードダイアログを表示する

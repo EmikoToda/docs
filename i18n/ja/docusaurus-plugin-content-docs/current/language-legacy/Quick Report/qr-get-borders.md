@@ -59,7 +59,7 @@ displayed_sidebar: docs
 | qr right border             | 倍長整数 | 4  | 右罫線   |
 | qr top border               | 倍長整数 | 2  | 上罫線   |
 
-**Note:** [QR SET BORDERS](qr-set-borders.md "QR SET BORDERS")コマンドとは異なり、QR GET BORDERSは累計値を受け付けません。罫線の全てのパラメータを知るには、全ての罫線値を使って個別にテストする必要があります。
+**Note:** [QR SET BORDERS](qr-set-borders.md "QR SET BORDERS")コマンドとは異なり、QR GET BORDERSは累計値を受け付けません。罫線の全てのパラメーターを知るには、全ての罫線値を使って個別にテストする必要があります。
 
 *line*にはその線の太さを返します:
 

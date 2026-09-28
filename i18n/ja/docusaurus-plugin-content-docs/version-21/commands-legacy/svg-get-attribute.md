@@ -31,7 +31,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.SVG GET ATTRIBUTE.Summary-->**SVG GET ATTRIBUTE**コマンドを使用して、オブジェクトまたはSVGピクチャの*attribName*属性の現在値を取得できます。<!-- END REF--> 
+<!--REF #_command_.SVG GET ATTRIBUTE.Summary-->**SVG GET ATTRIBUTE**コマンドを使用して、オブジェクトまたはSVGピクチャーの*attribName*属性の現在値を取得できます。<!-- END REF--> 
 
 オプションの *\** 引数を渡すと、*pictureObject*引数はオブジェクト名 (文字) です。この場合、コマンドはオブジェクトにアタッチされた描画イメージの属性値を返します。この値は例えば[SVG SET ATTRIBUTE](svg-set-attribute.md)で変更されているかもしれません。  
 *\** 引数を渡さないと、*pictureObject*引数は変数です。従って文字ではなく変数参照 (変数オブジェクトのみ) を渡します。この場合コマンドは、最初に描画されたイメージの属性値を返します (変数のデーターソースに対応)。

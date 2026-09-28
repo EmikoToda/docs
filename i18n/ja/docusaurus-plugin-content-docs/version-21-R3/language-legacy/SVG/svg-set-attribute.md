@@ -84,7 +84,7 @@ displayed_sidebar: docs
 | class or xml:class |                  |
 | width, height      | 'svg'要素のの属性のみ(1) |
 
-(1) これらの属性は、それらが結果のイメージを定義および構築するため変更できません。 *svg*要素の*width*および*height*属性は 4D中で初期のサイズを決定し、ピクチャ作成後このサイズは一定でなければなりません (しかしながら4Dの[TRANSFORM PICTURE](../commands/transform-picture)コマンドを使用して結果のピクチャのサイズを変更できます。
+(1) これらの属性は、それらが結果のイメージを定義および構築するため変更できません。 *svg*要素の*width*および*height*属性は 4D中で初期のサイズを決定し、ピクチャー作成後このサイズは一定でなければなりません (しかしながら4Dの[TRANSFORM PICTURE](../commands/transform-picture)コマンドを使用して結果のピクチャーのサイズを変更できます。
 
 [SVG GET ATTRIBUTE](../commands/svg-get-attribute)コマンドの説明ではアニメーション用に予約された4D属性のリストを参照できます。
 

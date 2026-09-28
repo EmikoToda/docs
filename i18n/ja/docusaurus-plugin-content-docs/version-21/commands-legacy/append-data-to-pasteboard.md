@@ -35,17 +35,17 @@ displayed_sidebar: docs
 
 *dataType*には、追加するデータのタイプを指定する値を渡します。4D シグネチャ, UTI タイプ (macOS), フォーマット名/番号 (Windows), 4文字のタイプ (互換性) を渡すことができます。これらのデータタイプについてはの節を参照してください。
 
-**Windowsユーザへの注意**: コマンドをテキストタイプのデータに対して使用するとき (*dataType* が"TEXT"、com.4d.private.text.native または com.4d.private.text.utf16)、Blob引数*data*に含まれる文字列はNULL文字で終了していなければなりません。 
+**Windowsユーザーへの注意**: コマンドをテキストタイプのデータに対して使用するとき (*dataType* が"TEXT"、com.4d.private.text.native または com.4d.private.text.utf16)、Blob引数*data*に含まれる文字列はNULL文字で終了していなければなりません。 
 
-通常、同一データの複数のインスタンスをペーストボードに追加、またはテキストやピクチャ以外のタイプのデータを追加するときには、APPEND DATA TO PASTEBOARDコマンドを使用します。ペーストボードに新しいデータを追加するには、まず最初に[CLEAR PASTEBOARD](clear-pasteboard.md "CLEAR PASTEBOARD")コマンドを使用してペーストボードを消去する必要があります。
+通常、同一データの複数のインスタンスをペーストボードに追加、またはテキストやピクチャー以外のタイプのデータを追加するときには、APPEND DATA TO PASTEBOARDコマンドを使用します。ペーストボードに新しいデータを追加するには、まず最初に[CLEAR PASTEBOARD](clear-pasteboard.md "CLEAR PASTEBOARD")コマンドを使用してペーストボードを消去する必要があります。
 
 消去と追加を実行するには:
 
 * テキスト: [SET TEXT TO PASTEBOARD](set-text-to-pasteboard.md "SET TEXT TO PASTEBOARD")コマンドを使用します。
-* ピクチャ: [SET PICTURE TO PASTEBOARD](set-picture-to-pasteboard.md "SET PICTURE TO PASTEBOARD")コマンドを使用します。
+* ピクチャー: [SET PICTURE TO PASTEBOARD](set-picture-to-pasteboard.md "SET PICTURE TO PASTEBOARD")コマンドを使用します。
 * ファイルパス名 (ドラッグ＆ドロップ) : [SET FILE TO PASTEBOARD](set-file-to-pasteboard.md "SET FILE TO PASTEBOARD")コマンドを使用します。
 
-しかし、BLOBにテキストやピクチャが含まれている場合、APPEND DATA TO PASTEBOARD コマンドを使用してテキストやピクチャをペーストボードに追加できることに留意してください。
+しかし、BLOBにテキストやピクチャーが含まれている場合、APPEND DATA TO PASTEBOARD コマンドを使用してテキストやピクチャーをペーストボードに追加できることに留意してください。
 
 ## 例題 
 

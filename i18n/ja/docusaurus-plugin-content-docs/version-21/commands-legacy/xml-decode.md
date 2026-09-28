@@ -35,7 +35,7 @@ displayed_sidebar: docs
 | 数値    | `<Price>8,5</Price><Price>8.5</Price>`                                                  | 実数: 8.5                                                                                                                    |
 | ブール   | `<Double>1</Double> <Double>0</Double>` または`<Double>true</Double> <Double>false</Double>` | ブール: True/False                                                                                                            |
 | BLOB  | Base64 デコード                                                                           |                                                                                                                            |
-| ピクチャ  | Base64 デコード + BLOB to picture コマンド                                                    |                                                                                                                            |
+| ピクチャー  | Base64 デコード + BLOB to picture コマンド                                                    |                                                                                                                            |
 | 日付    | 2009-10-25T01:03:20+01:00                                                             | 時間部とタイムゾーンを取り除く: !10/25/2009!                                                                                              |
 | 時間    | 2009-10-25T01:03:20+01:00                                                             | 日付部を取り除く: ?01:03:20? 警告:タイムゾーンは、ローカル時間と異なる場合にのみ使用されます。例: "2009-10-25T01:03:20+05:00" は、UTC+1のローカル時間では、?21:03:20? とデコードされます |
 

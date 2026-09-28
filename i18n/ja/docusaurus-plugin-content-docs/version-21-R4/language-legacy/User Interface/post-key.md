@@ -29,7 +29,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.POST KEY.Summary-->POST KEY コマンドはキーストロークをシミュレートします。<!-- END REF-->これは、ユーザが実際にキーボード上で文字を入力した場合と同様の結果を生じます。
+<!--REF #_command_.POST KEY.Summary-->POST KEY コマンドはキーストロークをシミュレートします。<!-- END REF-->これは、ユーザーが実際にキーボード上で文字を入力した場合と同様の結果を生じます。
 
 引数 *code* には、その文字のコードを渡します。 
 

@@ -605,11 +605,11 @@
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "サイドバーのカテゴリ '{label} ' を開く",
+    "message": "サイドバーのカテゴリー '{label} ' を開く",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "サイドバーのカテゴリ '{label} ' を閉じる",
+    "message": "サイドバーのカテゴリー '{label} ' を閉じる",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.unlistedContent.title": {

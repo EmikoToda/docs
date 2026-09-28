@@ -110,7 +110,7 @@ displayed_sidebar: docs
   // "age":4},{"name":"James","age":3}]}
 ```
 
-オブジェクトはデバッガ内では以下の様に表示されます:
+オブジェクトはデバッガー内では以下の様に表示されます:
 
 ![](../assets/en/commands/pict1211436.en.png)
 

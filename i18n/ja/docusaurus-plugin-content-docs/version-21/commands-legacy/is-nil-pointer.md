@@ -11,8 +11,8 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| aPointer | Pointer | &#8594;  | テストするポインタ |
-| 戻り値 | Boolean | &#8592; | TRUE = Nil ポインタ (->[]) FALSE = 既存のオブジェクトへの有効なポインタ |
+| aPointer | Pointer | &#8594;  | テストするポインター |
+| 戻り値 | Boolean | &#8592; | TRUE = Nil ポインター (->[]) FALSE = 既存のオブジェクトへの有効なポインター |
 </div>
 <!-- END REF-->
 
@@ -29,7 +29,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Is nil pointer.Summary-->**Is nil pointer**コマンドは、*aPointer*がNilポインタ (->\[\]) の場合に**True**を返します。<!-- END REF-->その他の場合（フィールドやテーブル、変数へのポインタ）、この関数はFalseを返します。
+<!--REF #_command_.Is nil pointer.Summary-->**Is nil pointer**コマンドは、*aPointer*がNilポインター (->\[\]) の場合に**True**を返します。<!-- END REF-->その他の場合（フィールドやテーブル、変数へのポインター）、この関数はFalseを返します。
 
 ポインターの参照先である変数の名前やフィールド番号を知りたい場合、[RESOLVE POINTER](resolve-pointer.md)コマンドを使用します。
 

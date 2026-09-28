@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| 戻り値 | Integer | &#8592; | トリガの実行レベル (トリガの実行サイクル外であれば0) |
+| 戻り値 | Integer | &#8592; | トリガーの実行レベル (トリガーの実行サイクル外であれば0) |
 </div>
 <!-- END REF-->
 
@@ -27,15 +27,15 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Trigger level.Summary-->Trigger levelコマンドはトリガの実行レベルを返します。<!-- END REF-->
+<!--REF #_command_.Trigger level.Summary-->Trigger levelコマンドはトリガーの実行レベルを返します。<!-- END REF-->
 
-実行レベルについての詳細は、*トリガのカスケード*の節にあるトリガのカスケードを参照してください。
+実行レベルについての詳細は、*トリガーのカスケード*の節にあるトリガーのカスケードを参照してください。
 
 ## 参照 
 
 [Trigger event](trigger-event.md)  
 [TRIGGER PROPERTIES](trigger-properties.md)  
-*トリガ*  
+*トリガー*  
 
 ## プロパティ
 

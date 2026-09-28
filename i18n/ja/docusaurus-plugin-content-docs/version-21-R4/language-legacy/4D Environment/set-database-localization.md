@@ -30,7 +30,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.SET DATABASE LOCALIZATION.Summary-->**SET DATABASE LOCALIZATION**コマンドを使用して、カレントセッションのデータベースカレント言語を変更できます。<!-- END REF-->
 
-データベースのカレント言語は、アプリケーションのローカライズされた要素 (テキストおよびピクチャ) をプログラムが検索する場所である.lprojフォルダーを指定します。デフォルトで4Dは、 Resourcesの内容およびシステム環境に基づき自動でカレント言語を決定します ([Get database localization](../commands/get-database-localization) コマンドの説明参照)。**SET DATABASE LOCALIZATION**を使用して、デフォルトのカレント言語を変更できます。
+データベースのカレント言語は、アプリケーションのローカライズされた要素 (テキストおよびピクチャー) をプログラムが検索する場所である.lprojフォルダーを指定します。デフォルトで4Dは、 Resourcesの内容およびシステム環境に基づき自動でカレント言語を決定します ([Get database localization](../commands/get-database-localization) コマンドの説明参照)。**SET DATABASE LOCALIZATION**を使用して、デフォルトのカレント言語を変更できます。
 
 コマンドは既にロードされたフォームの言語を変更しません。コマンドが呼び出された後に表示された要素のみが、新しい設定の効果を得ます。 
 
@@ -46,7 +46,7 @@ displayed_sidebar: docs
 
 ## 例題 1 
 
-日本語をインタフェース言語として設定する場合:
+日本語をインターフェース言語として設定する場合:
 
 ```4d
  SET DATABASE LOCALIZATION("ja")

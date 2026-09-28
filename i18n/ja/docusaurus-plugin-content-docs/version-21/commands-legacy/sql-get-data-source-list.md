@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| sourceType | Integer | &#8594;  | ソースタイプ: ユーザまたはシステム |
+| sourceType | Integer | &#8594;  | ソースタイプ: ユーザーまたはシステム |
 | sourceNamesArr | Text array | &#8592; | データソース名の配列 |
 | driversArr | Text array | &#8592; | ソース用のドライバの配列 |
 </div>
@@ -30,9 +30,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.SQL GET DATA SOURCE LIST.Summary-->*GET DATA SOURCE LIST*コマンドは、オペレーションシステムのODBCマネージャで定義されている*sourceType* データソースのドライバと名前を*sourceNamesArr*と*driversArr*の配列に返します。<!-- END REF-->
+<!--REF #_command_.SQL GET DATA SOURCE LIST.Summary-->*GET DATA SOURCE LIST*コマンドは、オペレーションシステムのODBCマネージャーで定義されている*sourceType* データソースのドライバと名前を*sourceNamesArr*と*driversArr*の配列に返します。<!-- END REF-->
 
-4Dではランゲージによる外部ODBCデータソースへのダイレクト接続が可能です。そして[Begin SQL](begin-sql.md "Begin SQL")/[End SQL](end-sql.md "End SQL")タグ構造内でSQLクエリを実行します。これは以下のように機能します。*GET DATA SOURCE LIST*コマンドはマシーン上に存在するデータソースのリストを得るために使用されます。[SQL LOGIN](sql-login.md "SQL LOGIN")コマンドは使用するソースを指定するためのコマンドです。[Begin SQL](begin-sql.md "Begin SQL")/[End SQL](end-sql.md "End SQL")タグストラクチャを使用してカレントソースにSQLクエリを実行することができます。4Dの内部エンジンを再度使用してクエリを実行するには、[SQL LOGOUT](sql-logout.md "SQL LOGOUT")コマンドを実行するだけです。メソッドエディタのSQLコマンドについての詳細は、4D SQL Reference マニュアルを参照してください。
+4Dではランゲージによる外部ODBCデータソースへのダイレクト接続が可能です。そして[Begin SQL](begin-sql.md "Begin SQL")/[End SQL](end-sql.md "End SQL")タグ構造内でSQLクエリを実行します。これは以下のように機能します。*GET DATA SOURCE LIST*コマンドはマシーン上に存在するデータソースのリストを得るために使用されます。[SQL LOGIN](sql-login.md "SQL LOGIN")コマンドは使用するソースを指定するためのコマンドです。[Begin SQL](begin-sql.md "Begin SQL")/[End SQL](end-sql.md "End SQL")タグストラクチャーを使用してカレントソースにSQLクエリを実行することができます。4Dの内部エンジンを再度使用してクエリを実行するには、[SQL LOGOUT](sql-logout.md "SQL LOGOUT")コマンドを実行するだけです。メソッドエディターのSQLコマンドについての詳細は、4D SQL Reference マニュアルを参照してください。
 
 *sourceType*には、検索したいデータソースのタイプを渡します。""テーマにある以下のいずれかの定数を使用できます。
 
@@ -49,7 +49,7 @@ displayed_sidebar: docs
 
 ## 例題 
 
-以下はユーザデータソースを使用する例です:
+以下はユーザーデータソースを使用する例です:
 
 ```4d
  ARRAY TEXT(arrDSN;0)

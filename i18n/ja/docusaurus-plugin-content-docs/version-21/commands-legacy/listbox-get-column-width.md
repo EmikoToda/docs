@@ -33,7 +33,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.LISTBOX Get column width.Summary-->LISTBOX Get column width コマンドは、*object*引数および *\** で指定された列の幅（ピクセル単位）を返します。<!-- END REF-->*object*引数には、リストボックスの列や列ヘッダを渡すことができます。
+<!--REF #_command_.LISTBOX Get column width.Summary-->LISTBOX Get column width コマンドは、*object*引数および *\** で指定された列の幅（ピクセル単位）を返します。<!-- END REF-->*object*引数には、リストボックスの列や列ヘッダーを渡すことができます。
 
 オプションの引数 *\** を渡すことにより、*object*引数がオブジェクト名（文字列）であることを示します。この引数を渡さない場合、*object*引数が変数であることを示します。この場合、文字列ではなく変数参照を指定します。オブジェクト名についての詳細はの節を参照してください。
 

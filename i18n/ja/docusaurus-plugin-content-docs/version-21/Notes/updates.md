@@ -135,8 +135,8 @@ title: リリースノート
 - [フォームオブジェクトプロパティ](../FormObjects/propertiesReference.md) は、[プロパティリスト](../FormEditor/formEditor.md#プロパティリスト) と[コンパイラー](../Project/compiler.md#シンタックスチェック)においてシンタックスチェックの恩恵を受けることができるようになりました。
 - [フォームにクラスを割り当てる](../FormEditor/properties_FormProperties.md#フォームクラス) ことで、[`Form`](../commands/form.md) コマンドを使用しているときにタイプアヘッドとフォームデータの自動インスタンス化を有効化することができるようになります。
 - [スタンドアロンセッション](../API/SessionClass.md) のサポート。これによりクライアント/サーバーアプリケーションのローカルなコーディングが単純化されます。
-- [4D デバッガ](../Debugging/debugger.md): 新デザイン、自動保存、表示モードなどの新機能
-- Apple 公証ガイドラインにより合致する[新しくビルトされたコンポーネントアーキテクチャ](../Desktop/building.md#build-component)
+- [4D デバッガー](../Debugging/debugger.md): 新デザイン、自動保存、表示モードなどの新機能
+- Apple 公証ガイドラインにより合致する[新しくビルトされたコンポーネントアーキテクチャー](../Desktop/building.md#build-component)
 - ビルドアプリケーションダイアログボックスから、簡単に[評価版アプリケーションをビルド](../Desktop/building.md#評価版アプリケーション) することができるようになりました。
 - 依存関係: 依存関係マネージャーを使用して、GitHub 上のコンポーネントの[新バージョンをチェック](../Project/components.md#新バージョンをチェック) したり[更新する](../Project/components.md#依存関係の更新) ことができます。
 - 新しい [`TCPConnection`](../API/TCPConnectionClass.md) および [`TCPEvent`](../API/TCPEventClass.md) クラスを使用してTCP クライアント接続を管理したり、イベントを管理したり、データ転送のコントロールを改善することができます。 追加された[`4DTCPLog.txt`](../Debugging/debugLogFiles.md#4dtcpudplogtxt) を使用することでTCP イベントの詳細なログを取ることができます。
@@ -153,7 +153,7 @@ title: リリースノート
 #### 動作の変更
 
 - [`SELECT LOG FILE`](../commands/select-log-file.md) コマンドあるいは [バックアップ設定](../Backup/settings.md#ログ管理) を使用してログファイルを変更したあと、[`New log file`](../commands/new-log-file.md) コマンドは、バックアップを待たずに変更を検証するようになりました。 エラー -4447 (バックアップが必要です) は発生しなくなりました。
-- [新アーキテクチャ](../Desktop/building.md#build-component) 導入の影響により、4D 20 R8 以降でビルドされたコンポーネントはそれ以前の4D リリースへとインストールすることはできません。
+- [新アーキテクチャー](../Desktop/building.md#build-component) 導入の影響により、4D 20 R8 以降でビルドされたコンポーネントはそれ以前の4D リリースへとインストールすることはできません。
 
 ### 4D 20 R7
 
@@ -280,7 +280,7 @@ title: リリースノート
 #### 動作の変更
 
 - いくつかのエラーは、[エラー処理メソッド](../Concepts/error-handling.md) によってインタプリタモードのみでキャッチ可能でした。 この問題の修正後、以下のエラーがコンパイルモードでも検出されるようになりました: *範囲外のインデックス*、*互換性のない型*、*Null ポインターの逆参照*。 いくつかのエラーは、[エラー処理メソッド](../Concepts/error-handling.md) によってインタプリタモードのみでキャッチ可能でした。 この問題の修正後、以下のエラーがコンパイルモードでも検出されるようになりました: *範囲外のインデックス*、*互換性のない型*、*Null ポインターの逆参照*。 ただし、Intelプロセッサーでは、このようなエラーによって以前と同様に処理が中断されますが、Apple Siliconプロセッサーでは、[`ABORT`](../commands-legacy/abort.md) コマンドを呼び出さない限り、処理は中断されません。
-- 4D は内部的な PHPインタプリターを実装しなくなりました。  4D は内部的な PHPインタプリターを実装しなくなりました。  PHPコマンドを使用するには、[別途PHPインタプリターをセットアップして実行する](https://blog.4d.com/ja/deprecation-of-php-commands-removal-of-4d-built-in-php-interpreter) 必要があります。
+- 4D は内部的な PHPインタープリターを実装しなくなりました。  4D は内部的な PHPインタープリターを実装しなくなりました。  PHPコマンドを使用するには、[別途PHPインタープリターをセットアップして実行する](https://blog.4d.com/ja/deprecation-of-php-commands-removal-of-4d-built-in-php-interpreter) 必要があります。
 
 ### 4D 20 R2
 
@@ -295,7 +295,7 @@ title: リリースノート
 #### ハイライト
 
 - 4D から WebSocketクライアント接続を作成および管理するための、新しい [WebSocket](../API/WebSocketClass.md) クラス。
-- 新しい QUICネットワークレイヤー [インタフェース設定](../settings/client-server.md#ネットワークレイヤー)。
+- 新しい QUICネットワークレイヤー [インターフェース設定](../settings/client-server.md#ネットワークレイヤー)。
 - 4D View Pro:ドキュメントの [インポート](../ViewPro/commands/vp-import-document) および [エクスポート](../ViewPro/commands/vp-export-document) で **.sjs** ファイル形式をサポート。
 - 4D Write Pro インターフェース: 新しい [表ウィザード](../WritePro/writeprointerface.md)。
 - [**修正リスト**](https://bugs.4d.fr/fixedbugslist?version=20_R2): 4D 20 R2 で修正されたバグのリストです ([日本語版はこちら](https://4d-jp.github.io/2023/349/release-note-version-20r2/))。

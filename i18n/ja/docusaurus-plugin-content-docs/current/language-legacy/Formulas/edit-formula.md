@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| aTable | Table | &#8594; | フォーミュラエディタにデフォルトで表示するテーブル |
+| aTable | Table | &#8594; | フォーミュラエディターにデフォルトで表示するテーブル |
 | formula | Text | &#8596; | *in:* Variable containing the formula to display in the Formula editor or "" to display editor only<br/>*out:* Formula validated by the user |
 </div>
 <!-- END REF-->
@@ -38,7 +38,7 @@ displayed_sidebar: docs
 
 **Note:**
 
-* デフォルトで、すべてのユーザーに対してメソッドとコマンドの使用は制限されます。（4D2004.4以降のバージョンにて作成されたデータベースで、DesignerとAdministratorを除く）。このメカニズムが有効であるとき、開発者は[SET ALLOWED METHODS](../commands/set-allowed-methods)コマンドを使用して、ユーザが利用可能な要素を明示的に指定する必要があります。もし*formula*が、[SET ALLOWED METHODS](../commands/set-allowed-methods) コマンドを使用してフォーミュラエディターで許可されていないメソッドを呼び出すと、シンタックスエラーが生成され、ダイアログボックスを受け入れることはできません。
+* デフォルトで、すべてのユーザーに対してメソッドとコマンドの使用は制限されます。（4D2004.4以降のバージョンにて作成されたデータベースで、DesignerとAdministratorを除く）。このメカニズムが有効であるとき、開発者は[SET ALLOWED METHODS](../commands/set-allowed-methods)コマンドを使用して、ユーザーが利用可能な要素を明示的に指定する必要があります。もし*formula*が、[SET ALLOWED METHODS](../commands/set-allowed-methods) コマンドを使用してフォーミュラエディターで許可されていないメソッドを呼び出すと、シンタックスエラーが生成され、ダイアログボックスを受け入れることはできません。
 * デフォルトでは、フォーミュラーエディターはメニューバーと関連付いていません。フォーミュラーエディター内でカット・コピー・ペースト等のショートカットを使うには、呼び出しプロセスにおいて標準の**編集**メニューを設定しておく必要があります。
 * [SET TABLE TITLES](../commands/set-table-titles) および[SET FIELD TITLES](../commands/set-field-titles) コマンドによって定義されたバーチャルストラクチャーは(あった場合)、*formula* 変数内で使用してはいけません。また返される値においても4D はバーチャルストラクチャーを使用しません。バーチャルストラクチャーはフォーミュラエディターのダイアログボックス内においてのみ使用されます。
 
@@ -46,7 +46,7 @@ displayed_sidebar: docs
 
 ## 例題 
 
-事前に入力されたフォーミュラは使用せず、\[Employees\]テーブルを使用してフォーミュラエディタを表示します:
+事前に入力されたフォーミュラは使用せず、\[Employees\]テーブルを使用してフォーミュラエディターを表示します:
 
 ```4d
  $myFormula:=""
@@ -58,7 +58,7 @@ displayed_sidebar: docs
 
 ## システム変数およびセット 
 
-ユーザがダイアログボックスを受け入れるとシステム変数OKに1が、キャンセルすると0が設定されます。
+ユーザーがダイアログボックスを受け入れるとシステム変数OKに1が、キャンセルすると0が設定されます。
 
 ## 参照 
 

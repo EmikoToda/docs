@@ -11,8 +11,8 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| name | Text | &#8594; | ユーザの名前 |
-| password | Text | &#8594; | ユーザのパスワード |
+| name | Text | &#8594; | ユーザーの名前 |
+| password | Text | &#8594; | ユーザーのパスワード |
 | authMethod | Integer | &#8594; | 認証メソッド 0または省略された場合 = 指定されない、1 = BASIC、2 = DIGEST |
 | * | 演算子 | &#8594; | 渡された場合、プロキシによる認証 |
 </div>
@@ -36,7 +36,7 @@ displayed_sidebar: docs
 
 **注:** BASICとDIGEST認証のメソッドに関する詳細は*接続セキュリティ*を参照してください。
 
-引数 *name* と *password* には、必須となるID情報 (ユーザ名とパスワード) を渡します。[WEB SERVICE CALL](../commands/web-service-call)コマンドによってこの情報はコード化され、Webサービスへ送られるHTTPリクエストに追加されます。従って[WEB SERVICE CALL](../commands/web-service-call)コマンドを呼び出す前に**WEB SERVICE AUTHENTICATE**コマンド を呼び出す必要があります。  
+引数 *name* と *password* には、必須となるID情報 (ユーザー名とパスワード) を渡します。[WEB SERVICE CALL](../commands/web-service-call)コマンドによってこの情報はコード化され、Webサービスへ送られるHTTPリクエストに追加されます。従って[WEB SERVICE CALL](../commands/web-service-call)コマンドを呼び出す前に**WEB SERVICE AUTHENTICATE**コマンド を呼び出す必要があります。  
   
 オプション引数 *authMethod* を用いて、次の[WEB SERVICE CALL](../commands/web-service-call)コマンド を呼び出すために使用する認証メソッドを指定します。そのためには、以下の値の1つを渡します。
 
@@ -48,7 +48,7 @@ displayed_sidebar: docs
 
 認証情報は各リクエスト後にデフォルトで0にリセットされます。そのため**WEB SERVICE AUTHENTICATE**コマンドを使用してから各[WEB SERVICE CALL](../commands/web-service-call)コマンドを使用します。しかし[WEB SERVICE SET OPTION](../commands/web-service-set-option)コマンドのオプションを使用すれば、この情報を一時的に保持するのは可能です。この場合、**WEB SERVICE AUTHENTICATE**コマンドをつど実行せずに、各[WEB SERVICE CALL](../commands/web-service-call)コマンドを実行します。
 
-認証が失敗すると、SOAPサーバはエラーを返します。このエラーは[WEB SERVICE Get info](../commands/web-service-get-info)コマンドを使用して確認できます。
+認証が失敗すると、SOAPサーバーはエラーを返します。このエラーは[WEB SERVICE Get info](../commands/web-service-get-info)コマンドを使用して確認できます。
 
 ## 例題 
 

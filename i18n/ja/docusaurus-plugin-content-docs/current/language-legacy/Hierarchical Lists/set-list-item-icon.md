@@ -32,14 +32,14 @@ displayed_sidebar: docs
 
 <!--REF #_command_.SET LIST ITEM ICON.Summary-->**SET LIST ITEM ICON** コマンドは、リスト参照またはオブジェクト名を*list* に指定したリスト中、*itemRef* 引数で指定した項目に割り当てるアイコンを設定します。<!-- END REF-->
 
-**Note:** [SET LIST ITEM PROPERTIES](set-list-item-properties.md "SET LIST ITEM PROPERTIES") コマンドを使用して、項目に割り当てるアイコンを設定することができます。しかし[SET LIST ITEM PROPERTIES](set-list-item-properties.md "SET LIST ITEM PROPERTIES")はスタティックピクチャ参照 (リソース参照またはピクチャライブラリのピクチャ) のみを受け入れます。
+**Note:** [SET LIST ITEM PROPERTIES](set-list-item-properties.md "SET LIST ITEM PROPERTIES") コマンドを使用して、項目に割り当てるアイコンを設定することができます。しかし[SET LIST ITEM PROPERTIES](set-list-item-properties.md "SET LIST ITEM PROPERTIES")はスタティックピクチャー参照 (リソース参照またはピクチャーライブラリのピクチャー) のみを受け入れます。
 
 1番目の \* 引数を渡した場合、*list* 引数はフォーム中のリストオブジェクトのオブジェクト名 (文字列) です。この引数を渡さない場合、*list* 引数はリスト参照番号 ([ListRef](# "階層リストへの参照")) です。1つしかフォーム上でリストオブジェクトを使用しない、または2番目の \* を省略してリスト構造を処理対象とする場合、いずれのシンタックスも使用できます。同じリストの複数のリストオブジェクトがフォーム上にあり、2番目の \* を渡してカレントの項目を処理する場合、リストオブジェクトごとにカレント項目が異なるため、オブジェクト名に基づくシンタックスを使用しなければなりません。
 
 *itemRef* には参照番号を渡すことができます。渡した項目参照番号を持つ項目が存在しない場合、コマンドは何も行いません。オプションとして*itemRef* に0 を渡し、[APPEND TO LIST](append-to-list.md "APPEND TO LIST")コマンドを用いてリストへ最後に追加される項目を指定することができます。  
 最後に、*itemRef*には \* を渡すことができます。この場合、コマンドはリストのカレント項目に対して適用されます。手動で複数のリスト項目が選択されている場合、最後に選択された項目がカレントリスト項目になります。選択された項目が存在しない場合、コマンドは何も行いません。  
   
-*icon* 引数には有効な4D ピクチャ式 (フィールド、変数、ポインタなど) を渡します。ピクチャは項目の左側に表示されます。
+*icon* 引数には有効な4D ピクチャー式 (フィールド、変数、ポインターなど) を渡します。ピクチャーは項目の左側に表示されます。
 
 ## 例題 
 

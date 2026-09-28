@@ -118,8 +118,8 @@ Symbolファイルを生成するのに使用します ([Symbolファイル](#sy
 
 | *オプション*                                                       | *Windows Intel/AMD*                                          | *macOS Intel*                                            | *macOS Silicon*                                          |
 | ------------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------- | -------------------------------------------------------- |
-| **全てのプロセッサ (Intel/AMD および Apple Silicon)** | Intel/AMD 用コードのみ<br/>*Windows上で Apple Silicon 用のコードは生成できません* | Apple Silicon + Intel/AMD 用コード<br/>*2種類のコンパイルコードが生成されます* | Apple Silicon + Intel/AMD 用コード<br/>*2種類のコンパイルコードが生成されます* |
-| **自分のプロセッサ (プロセッサー名)**                     | Intel/AMD 用コード                                               | Intel/AMD 用コード                                           | Apple Silicon 用コード                                       |
+| **全てのプロセッサー (Intel/AMD および Apple Silicon)** | Intel/AMD 用コードのみ<br/>*Windows上で Apple Silicon 用のコードは生成できません* | Apple Silicon + Intel/AMD 用コード<br/>*2種類のコンパイルコードが生成されます* | Apple Silicon + Intel/AMD 用コード<br/>*2種類のコンパイルコードが生成されます* |
+| **自分のプロセッサー (プロセッサー名)**                     | Intel/AMD 用コード                                               | Intel/AMD 用コード                                           | Apple Silicon 用コード                                       |
 
 > Apple Silicon 用にコンパイルするには、マシンに **Clang** アプリケーションをインストールする必要があります。 Clang は最新バージョンの Xcode に含まれています。 詳細については [Apple Silicon用コンパイルの要件](#要件) を参照ください。
 

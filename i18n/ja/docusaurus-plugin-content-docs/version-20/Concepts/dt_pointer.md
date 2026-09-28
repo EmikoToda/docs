@@ -158,7 +158,7 @@ OBJECT SET FONT($FieldPtr->;"Arial")
 #DECLARE($param : Pointer)
 ...
 ```
-デバッガは $param を以下のように表示します:
+デバッガーは $param を以下のように表示します:
 
 | $param | ->$MyVar (Method1) |
 | ------ | ------------------ |
