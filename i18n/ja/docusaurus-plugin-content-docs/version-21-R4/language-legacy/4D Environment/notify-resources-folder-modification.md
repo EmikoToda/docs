@@ -28,7 +28,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.NOTIFY RESOURCES FOLDER MODIFICATION.Summary-->NOTIFY RESOURCES FOLDER MODIFICATION コマンドを使用して、接続されたすべての4D マシンに、**Resources**フォルダーが更新された旨の通知の送信を、4D Server に強制することができます。<!-- END REF-->この結果、リモートの4Dマシンはローカル**Resources**フォルダーを同期できます。
 
-このコマンドは特に、サーバー上のストアドプロシージャーで**Resources**フォルダーを更新した後、リモートマシンでこのフォルダーの同期を管理するために使用できます。
+このコマンドは特に、サーバ上のストアドプロシージャで**Resources**フォルダーを更新した後、リモートマシンでこのフォルダーの同期を管理するために使用できます。
 
 リモートモードでの**Resources**フォルダーの管理に関する詳細は、*4D Server Reference*を参照してください。
 
@@ -36,7 +36,7 @@ displayed_sidebar: docs
 
 * セッション中ローカルの**Resources**フォルダーを同期しない。
 * セッション中にローカルの**Resources**フォルダーを自動で同期する
-* 警告を表示し、同期を行うかユーザーに選択させる
+* 警告を表示し、同期を行うかユーザに選択させる
 
 設定は以下のいずれかの方法で行います:
 

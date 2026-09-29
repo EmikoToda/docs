@@ -31,7 +31,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.WA Create URL history menu.Summary-->**WA Create URL history menu** コマンドは、*\** と *object* で指定したWebエリアがセッション中に訪問したURL間をナビゲートするメニューを作成します。<!-- END REF-->このコマンドを使用して、カスタムのナビゲーションインターフェースを作成できます。
+<!--REF #_command_.WA Create URL history menu.Summary-->**WA Create URL history menu** コマンドは、*\** と *object* で指定したWebエリアがセッション中に訪問したURL間をナビゲートするメニューを作成します。<!-- END REF-->このコマンドを使用して、カスタムのナビゲーションインタフェースを作成できます。
 
 提供される情報はセッションに限定されます。言い換えればナビゲーションは同じWebエリアで、フォームが閉じられない間実行されます。
 

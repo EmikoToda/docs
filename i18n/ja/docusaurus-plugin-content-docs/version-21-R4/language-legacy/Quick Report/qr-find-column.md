@@ -31,7 +31,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.QR Find column.Summary-->QR Find column コマンドは、*expression*引数で渡された表現式に一致する内容を持つ最初のカラムの番号を返します。<!-- END REF-->
 
-*expression* には文字列またはポインターを渡します。
+*expression* には文字列またはポインタを渡します。
 
 対象となるカラムが見つからない場合、は-1を返します。
 

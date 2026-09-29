@@ -12,13 +12,13 @@ displayed_sidebar: docs
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
 | area | Integer | &#8594; | エリア参照 |
-| selector | Integer | &#8594; | 1 = ヘッダー, 2 = フッター |
+| selector | Integer | &#8594; | 1 = ヘッダ, 2 = フッタ |
 | leftTitle | Text | &#8592; | 左側に表示されるテキスト |
 | centerTitle | Text | &#8592; | 中央に表示されるテキスト |
 | rightTitle | Text | &#8592; | 右側に表示されるテキスト |
-| height | Integer | &#8592; | ヘッダーまたはフッターの高さ |
-| picture | Picture | &#8592; | 表示するピクチャー |
-| pictAlignment | Integer | &#8592; | ピクチャーの整列属性 |
+| height | Integer | &#8592; | ヘッダまたはフッタの高さ |
+| picture | Picture | &#8592; | 表示するピクチャ |
+| pictAlignment | Integer | &#8592; | ピクチャの整列属性 |
 </div>
 <!-- END REF-->
 
@@ -34,31 +34,31 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.QR GET HEADER AND FOOTER.Summary-->QR GET HEADER AND FOOTER コマンドを使用し、ヘッダーまたはフッターの内容とサイズを取得できます。<!-- END REF-->
+<!--REF #_command_.QR GET HEADER AND FOOTER.Summary-->QR GET HEADER AND FOOTER コマンドを使用し、ヘッダまたはフッタの内容とサイズを取得できます。<!-- END REF-->
 
-*selector* を使用して、ヘッダーまたはフッターを選択します:
+*selector* を使用して、ヘッダまたはフッタを選択します:
 
-* *selector*に1を指定すると、ヘッダー情報を取得できます。
-* *selector*に2を指定すると、フッター情報を取得できます。
+* *selector*に1を指定すると、ヘッダ情報を取得できます。
+* *selector*に2を指定すると、フッタ情報を取得できます。
 
-*leftTitle*, *centerTitle* そして *rightTitle*にはそれぞれ左側、中央、右側にあるヘッダーまたはフッターの値が返されます。
+*leftTitle*, *centerTitle* そして *rightTitle*にはそれぞれ左側、中央、右側にあるヘッダまたはフッタの値が返されます。
 
-*height*には、そのレポートに対して選択された単位で表わされたヘッダーまたはフッターの高さが返されます。
+*height*には、そのレポートに対して選択された単位で表わされたヘッダまたはフッタの高さが返されます。
 
-*picture*には、ヘッダーまたはフッターに表示されるピクチャーが返されます。
+*picture*には、ヘッダまたはフッタに表示されるピクチャが返されます。
 
-*pictAlignment*には、ヘッダーまたはフッターに表示されるピクチャーの整列属性が返されます。
+*pictAlignment*には、ヘッダまたはフッタに表示されるピクチャの整列属性が返されます。
 
-* *pictAlignment*が1の場合、そのピクチャーは左揃えです。
-* *pictAlignment*が2の場合、そのピクチャーは中央揃えです。
-* *pictAlignment*が3の場合、そのピクチャーは右揃えです。
+* *pictAlignment*が1の場合、そのピクチャは左揃えです。
+* *pictAlignment*が2の場合、そのピクチャは中央揃えです。
+* *pictAlignment*が3の場合、そのピクチャは右揃えです。
 
 無効な*area*番号を渡した場合、エラー番号-9850が生成されます。  
 無効な*selector*引数を渡した場合、エラー番号-9852が生成されます。
 
 ## 例題 
 
-次のコードは、ヘッダータイトルの値とヘッダーサイズを取得し、それを警告として表示します:
+次のコードは、ヘッダタイトルの値とヘッダサイズを取得し、それを警告として表示します:
 
 ```4d
  QR GET HEADER AND FOOTER(MyArea;1;$LeftText;$CenterText;$RightText;$height)

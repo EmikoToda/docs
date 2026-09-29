@@ -12,7 +12,7 @@ displayed_sidebar: docs
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
 | varName | Text | &#8594; | プロセスまたはインタプロセス変数の名前 |
-| 戻り値 | Pointer | &#8592; | プロセスまたはインタープロセス変数へのポインター |
+| 戻り値 | Pointer | &#8592; | プロセスまたはインタープロセス変数へのポインタ |
 </div>
 <!-- END REF-->
 
@@ -30,9 +30,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Get pointer.Summary-->**Get pointer** コマンドは、*varName*に渡した名前を持つ変数へのポインターを返します。<!-- END REF--> 
+<!--REF #_command_.Get pointer.Summary-->**Get pointer** コマンドは、*varName*に渡した名前を持つ変数へのポインタを返します。<!-- END REF--> 
 
-フィールドへのポインターを取得するには[Field](../commands/field)を使用します。テーブルへのポインターを取得するには[Table](../commands/table)を使用します。
+フィールドへのポインタを取得するには[Field](../commands/field)を使用します。テーブルへのポインタを取得するには[Table](../commands/table)を使用します。
 
 **Note:** **Get pointer** は、例えば*ArrName+"{3}"* のような式や、二次元配列要素 (*ArrName+"{3}{5}"*) を受け入れます。  
 しかしながら変数要素参照(*ArrName+"{myVar}"*) は使用できません。

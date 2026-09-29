@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| userID | Integer | &#8594;  | 削除するユーザーのID番号 |
+| userID | Integer | &#8594;  | 削除するユーザのID番号 |
 </div>
 <!-- END REF-->
 
@@ -27,11 +27,11 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.DELETE USER.Summary-->DELETE USER コマンドは、引数 *userID* に渡したユニークなユーザーID番号を持つユーザーを削除します。<!-- END REF--> この場合、必ず[GET USER LIST](get-user-list.md "GET USER LIST") コマンドによって返された有効なユーザーID番号を渡さなければなりません。 
+<!--REF #_command_.DELETE USER.Summary-->DELETE USER コマンドは、引数 *userID* に渡したユニークなユーザID番号を持つユーザを削除します。<!-- END REF--> この場合、必ず[GET USER LIST](get-user-list.md "GET USER LIST") コマンドによって返された有効なユーザID番号を渡さなければなりません。 
 
-ユーザーアカウントが存在しない場合や既に削除されている場合は、エラーコード -9979が生成されます。[ON ERR CALL](on-err-call.md "ON ERR CALL")コマンドを用いてインストールされたエラー処理メソッドでこのエラーを受け取ることができます。
+ユーザアカウントが存在しない場合や既に削除されている場合は、エラーコード -9979が生成されます。[ON ERR CALL](on-err-call.md "ON ERR CALL")コマンドを用いてインストールされたエラー処理メソッドでこのエラーを受け取ることができます。
 
-DesignerとAdministratorのみがユーザーを削除できます。AdministratorはDesignerによって作成されたユーザーを削除するこはできません。
+DesignerとAdministratorのみがユーザを削除できます。AdministratorはDesignerによって作成されたユーザを削除するこはできません。
 
 削除されたユーザー名は、[EDIT ACCESS](edit-access.md "EDIT ACCESS")コマンドやデザインモードで表示されるユーザーエディターに表示されなくなります。削除されたユーザーの番号は、新しいユーザーアカウントが作成される際に再割り当てされることがあることに留意してください。
 

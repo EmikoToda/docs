@@ -22,7 +22,7 @@ displayed_sidebar: docs
 * [DIALOG](../commands/dialog.md) コマンドで表示されたフォームを受け入れる。
 * [DISPLAY SELECTION](display-selection.md) や [MODIFY SELECTION](modify-selection.md) でレコードセレクションを表示したフォームを閉じる。
 
-<!--REF #_command_.ACCEPT.Summary-->**ACCEPT** はユーザーがEnterキーを押したのと同じ動作をします。フォームが受け入れられると、OKシステム変数に1が設定されます<!-- END REF-->
+<!--REF #_command_.ACCEPT.Summary-->**ACCEPT** はユーザがEnterキーを押したのと同じ動作をします。フォームが受け入れられると、OKシステム変数に1が設定されます<!-- END REF-->
 
 **ACCEPT** は一般的にメニューコマンド選択結果として実行されます。また**ACCEPT** は"アクションなし"ボタンのオブジェクトメソッドで使用されます。
 

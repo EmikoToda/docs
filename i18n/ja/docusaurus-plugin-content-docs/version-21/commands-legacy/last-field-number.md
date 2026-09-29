@@ -11,20 +11,20 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| tableNum &#124; tablePtr | 倍長整数, ポインター | &#8594;  | テーブル番号、またはテーブルポインター |
+| tableNum &#124; tablePtr | 倍長整数, ポインター | &#8594;  | テーブル番号、またはテーブルポインタ |
 | 戻り値 | Integer | &#8592; | テーブルの最大フィールド番号 |
 </div>
 <!-- END REF-->
 
 ## 説明 
 
-<!--REF #_command_.Last field number.Summary-->Last field numberコマンドは、*tableNum*または*tablePtr*にテーブル番号またはポインターを渡したテーブルにあるフィールドの中で、最大のフィールド番号を返します。<!-- END REF-->
+<!--REF #_command_.Last field number.Summary-->Last field numberコマンドは、*tableNum*または*tablePtr*にテーブル番号またはポインタを渡したテーブルにあるフィールドの中で、最大のフィールド番号を返します。<!-- END REF-->
 
 フィールドは作成された順に番号が付けられています。フィールドがテーブルから何も削除されていない場合、コマンドはテーブルにあるフィールドの数を返します。テーブルのフィールド番号でループを繰り返す場合は、[Is field number valid](is-field-number-valid.md "Is field number valid")コマンドを使用して、フィールドが削除されているかを確認します。
 
 ## 例題 
 
-次のプロジェクトメソッドでは、最初の引数として受け取られたポインターが指すテーブルのフィールド名から成る配列*asFields*を構築します。
+次のプロジェクトメソッドでは、最初の引数として受け取られたポインタが指すテーブルのフィールド名から成る配列*asFields*を構築します。
 
 ```4d
  $vlTable:=Table($1)

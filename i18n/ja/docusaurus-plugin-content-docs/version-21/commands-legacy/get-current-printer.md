@@ -32,7 +32,7 @@ displayed_sidebar: docs
 
 プリントサーバー (スプーラー) を使用してカレントプリンターを管理している場合、完全なアクセスパス (Windows) またはスプーラーの名前 (macOS) が返されます。
 
-使用できるプリンターの一覧および追加情報を取得するには[PRINTERS LIST](printers-list.md)コマンドを使用します。カレントプリンターを変更するには、[SET CURRENT PRINTER](set-current-printer.md)を使用します。
+使用できるプリンターの一覧および追加情報を取得するには[PRINTERS LIST](printers-list.md)コマンドを使用します。カレントプリンタを変更するには、[SET CURRENT PRINTER](set-current-printer.md)を使用します。
 
 **注:** [SET CURRENT PRINTER](set-current-printer.md) で Generic PDF driver のオプションを有効にしている場合、[Get current printer](get-current-printer.md) コマンドの戻り値は "\_4d\_pdf\_printer" または実際の PDF ドライバーの名称です。
 

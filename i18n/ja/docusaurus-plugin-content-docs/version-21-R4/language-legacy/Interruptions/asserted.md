@@ -33,7 +33,7 @@ displayed_sidebar: docs
 
 **Asserted**はブール式を引数として受け入れ、この式の評価結果を返します。アサーションが有効で式が[False](../commands/false)の場合 ([SET ASSERT ENABLED](../commands/set-assert-enabled)コマンド参照)、[ASSERT](../commands/assert)と同様エラー-10518が生成されます。アサーションが無効にされていると、**Asserted**はエラー生成することなしに、渡された式の結果を返します。
 
-**注:** [ASSERT](../commands/assert)コマンド同様 、**Asserted**もインタープリターモードでもコンパイル済みモードでも動作します。
+**注:** [ASSERT](../commands/assert)コマンド同様 、**Asserted**もインタープリタモードでもコンパイル済みモードでも動作します。
 
 ## 例題 
 

@@ -14,7 +14,7 @@ displayed_sidebar: docs
 | * | 演算子 | &#8594; | 指定時、objectはオブジェクト名 (文字列)<br/>省略時、objectは変数 |
 | object | any | &#8594; | オブジェクト名 (* 指定時) または <br/>変数 (* 省略時) |
 | hierarchical | Boolean | &#8594; | True = 階層リストボックス<br/>False = 非階層リストボックス |
-| hierarchy | Pointer array | &#8594; | ポインターの配列 |
+| hierarchy | Pointer array | &#8594; | ポインタの配列 |
 </div>
 <!-- END REF-->
 

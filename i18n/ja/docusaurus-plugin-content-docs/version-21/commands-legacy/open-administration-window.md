@@ -26,14 +26,14 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.OPEN ADMINISTRATION WINDOW.Summary-->**OPEN ADMINISTRATION WINDOW**コマンドは、コマンドを実行したマシン上でサーバー管理ウィンドウを開きます。<!-- END REF-->4D Serverの管理ウィンドウで現在のパラメタを表示させたり、さまざまなメンテナンス操作を行ったりできます (4D Server Reference Guide参照)。4D Server のバージョン11から、このウィンドウをクライアントマシン上で表示できるようになりました: 
+<!--REF #_command_.OPEN ADMINISTRATION WINDOW.Summary-->**OPEN ADMINISTRATION WINDOW**コマンドは、コマンドを実行したマシン上でサーバ管理ウィンドウを開きます。<!-- END REF-->4D Serverの管理ウィンドウで現在のパラメタを表示させたり、さまざまなメンテナンス操作を行ったりできます (4D Server Reference Guide参照)。4D Server のバージョン11から、このウィンドウをクライアントマシン上で表示できるようになりました: 
 
 ![](../assets/en/commands/pict12004.ja.png)
 
 このコマンドは、4D Serverに接続した4Dアプリケーションまたは4D Serverから呼び出さなければなりません。以下の場合、コマンドは何も行いません: 
 
 * ローカルモードの4Dアプリケーションから呼び出された場合。
-* Designer でもAdministrator でもないユーザーが実行した場合 (この場合エラー-9991 が生成されます。 *データベースエンジンエラー (-10602 -> 4004)*参照)。
+* Designer でもAdministrator でもないユーザが実行した場合 (この場合エラー-9991 が生成されます。 *データベースエンジンエラー (-10602 -> 4004)*参照)。
 
 ## 例題 
 

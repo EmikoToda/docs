@@ -11,8 +11,8 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| markNum | Integer | &#8594; | マーカー番号 |
-| 戻り値 | Integer | &#8592; | マーカーの位置 |
+| markNum | Integer | &#8594; | マーカ番号 |
+| 戻り値 | Integer | &#8592; | マーカの位置 |
 </div>
 <!-- END REF-->
 
@@ -29,7 +29,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Get print marker.Summary-->Get print marker コマンドを使用し、印刷中にマーカーの現在位置を取得することができます。<!-- END REF-->
+<!--REF #_command_.Get print marker.Summary-->Get print marker コマンドを使用し、印刷中にマーカの現在位置を取得することができます。<!-- END REF-->
 
 このコマンドは次の2つの状況で使用することができます:
 

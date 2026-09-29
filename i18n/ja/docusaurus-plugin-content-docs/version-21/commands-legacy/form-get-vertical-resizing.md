@@ -29,7 +29,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.FORM GET VERTICAL RESIZING.Summary-->FORM GET VERTICAL RESIZING コマンドは カレントフォームの垂直サイズ変更プロパティを*resize*、*minHeight*、そして*maxHeight*変数に返します。<!-- END REF-->これらのプロパティはデザインモードのフォームエディター、またはカレントプロセス用に[FORM SET VERTICAL RESIZING](form-set-vertical-resizing.md "FORM SET VERTICAL RESIZING") コマンドで設定されます。 
+<!--REF #_command_.FORM GET VERTICAL RESIZING.Summary-->FORM GET VERTICAL RESIZING コマンドは カレントフォームの垂直サイズ変更プロパティを*resize*、*minHeight*、そして*maxHeight*変数に返します。<!-- END REF-->これらのプロパティはデザインモードのフォームエディタ、またはカレントプロセス用に[FORM SET VERTICAL RESIZING](form-set-vertical-resizing.md "FORM SET VERTICAL RESIZING") コマンドで設定されます。 
 
 ## 参照 
 

@@ -29,13 +29,13 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.GET PICTURE RESOURCE.Summary-->GET PICTURE RESOURCE コマンドは、*resID*のIDを持つピクチャー ("PICT") リソースに格納されているピクチャーを*resData*のピクチャーフィールドまたは変数に返します。<!-- END REF-->
+<!--REF #_command_.GET PICTURE RESOURCE.Summary-->GET PICTURE RESOURCE コマンドは、*resID*のIDを持つピクチャ ("PICT") リソースに格納されているピクチャを*resData*のピクチャフィールドまたは変数に返します。<!-- END REF-->
 
 リソースが見つからなかった場合、*resData*は変わらず、システム変数OKに0が設定されます。
 
 *resFile*に有効なリソースファイル参照番号を渡すと、リソースはそのリソースファイル内でのみ検索されます。*resFile*を省略した場合は、リソースチェーン内で最初に見つかったリソースのオカレンスが返されます。
 
-**Note:** ピクチャーリソースは、少なくとも数メガバイトのサイズになる可能性があります。
+**Note:** ピクチャリソースは、少なくとも数メガバイトのサイズになる可能性があります。
 
 ## 例題 
 
@@ -47,7 +47,7 @@ displayed_sidebar: docs
 
 ## エラー管理 
 
-ピクチャーをロードするための十分なメモリがない場合、エラーが生成されます。[ON ERR CALL](../commands/on-err-call)を使ってインストールされたエラー処理メソッドでこのエラーを受け取ることができます。
+ピクチャをロードするための十分なメモリがない場合、エラーが生成されます。[ON ERR CALL](../commands/on-err-call)を使ってインストールされたエラー処理メソッドでこのエラーを受け取ることができます。
 
 ## 参照 
 

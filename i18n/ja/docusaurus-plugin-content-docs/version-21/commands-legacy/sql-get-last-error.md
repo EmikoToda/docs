@@ -14,7 +14,7 @@ displayed_sidebar: docs
 | errCode | Integer | &#8592; | エラーコード |
 | errText | Text | &#8592; | エラーテキスト |
 | errODBC | Text | &#8592; | ODBCエラーコード |
-| errSQLServer | Integer | &#8592; | SQLサーバーネイティブエラーコード |
+| errSQLServer | Integer | &#8592; | SQLサーバネイティブエラーコード |
 </div>
 <!-- END REF-->
 
@@ -40,7 +40,7 @@ displayed_sidebar: docs
 残りの2つの引数には、エラーがODBCソースで生成された場合にのみ値が返されます。そうでない場合、空となります。 
 
 * *errODBC*引数にはODBCエラーコード (SQL state) が返されます。
-* *errSQLServer*引数にはSQLサーバーのネイティブエラーコードが返されます。
+* *errSQLServer*引数にはSQLサーバのネイティブエラーコードが返されます。
 
 ## 参照 
 

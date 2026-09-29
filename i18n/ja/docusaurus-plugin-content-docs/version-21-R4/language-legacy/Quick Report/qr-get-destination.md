@@ -37,7 +37,7 @@ displayed_sidebar: docs
 
 | **出力先**  | **タイプ (値)**            | **詳細**      |
 | -------- | ---------------------- | ----------- |
-| プリンター     | *qr printer* (1)       | N.A.        |
+| プリンタ     | *qr printer* (1)       | N.A.        |
 | テキストファイル | *qr text file* (2)     | ファイルパス名     |
 | 4D View  | *qr 4D View area* (3)  | N.A.        |
 | 4D Chart | *qr 4D Chart area* (4) | N.A.        |

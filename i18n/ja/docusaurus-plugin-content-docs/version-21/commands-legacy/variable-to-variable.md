@@ -38,7 +38,7 @@ VARIABLE TO VARIABLEは、[SET PROCESS VARIABLE](set-process-variable.md "SET PR
 
 カレントプロセスは送り先プロセスの変数を"のぞき見"しています。送り先プロセスは別のプロセスが自分の変数のインスタンスに書き込んでいることについては何も警告されません。
 
-**4D Server:** [GET PROCESS VARIABLE](get-process-variable.md "GET PROCESS VARIABLE")、[SET PROCESS VARIABLE](set-process-variable.md "SET PROCESS VARIABLE")、VARIABLE TO VARIABLEコマンドにより提供されるマシン間プロセス通信はクライアントからサーバーへのみ行うことができます。ストアドプロシジャの読み書きを行うのは常にクライアントプロセスです。
+**4D Server:** [GET PROCESS VARIABLE](get-process-variable.md "GET PROCESS VARIABLE")、[SET PROCESS VARIABLE](set-process-variable.md "SET PROCESS VARIABLE")、VARIABLE TO VARIABLEコマンドにより提供されるマシン間プロセス通信はクライアントからサーバへのみ行うことができます。ストアドプロシジャの読み書きを行うのは常にクライアントプロセスです。
 
 *srcVar;dstVar*の組み合わせにおいて、ソース変数は送り先変数と互換性のあるタイプである必要があり、互換性がない場合には、意味のない値が設定されます。  
 インタプリタモードでは、送り先変数が存在しない場合、変数が作成されソース変数の値が設定されます。
@@ -51,11 +51,11 @@ VARIABLE TO VARIABLE は、送り先変数としてローカル変数を受け�
 
 VARIABLE TO VARIABLE は、任意のタイプの送り先プロセスまたはインタープロセス変数を受け付けますが、以下のタイプは除きます:
 
-* ポインター
-* ポインター配列
+* ポインタ
+* ポインタ配列
 * 2次元配列
 
-送り先プロセスは、ユーザープロセスである必要があります。カーネルプロセスは、送り先プロセスにはなれません。送り先プロセスが存在しない場合には、エラーが生成されます。[ON ERR CALL](on-err-call.md "ON ERR CALL")コマンドでインストールされたエラー処理メソッドを使用すると、このエラーをとらえることができます。
+送り先プロセスは、ユーザプロセスである必要があります。カーネルプロセスは、送り先プロセスにはなれません。送り先プロセスが存在しない場合には、エラーが生成されます。[ON ERR CALL](on-err-call.md "ON ERR CALL")コマンドでインストールされたエラー処理メソッドを使用すると、このエラーをとらえることができます。
 
 ## 例題 
 

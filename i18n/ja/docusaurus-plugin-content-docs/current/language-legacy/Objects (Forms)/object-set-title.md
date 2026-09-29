@@ -53,7 +53,7 @@ displayed_sidebar: docs
 
 ## 例題 1 
 
-以下の例は、[MODIFY SELECTION](../commands/modify-selection)を使用して表示された出力フォームのフッターエリアにある検索ボタンのオブジェクトメソッドです。このメソッドはテーブルを検索し、その検索結果に応じて*bDelete*ボタンを使用可または不可にして、そのボタンタイトルを変更します:
+以下の例は、[MODIFY SELECTION](../commands/modify-selection)を使用して表示された出力フォームのフッタエリアにある検索ボタンのオブジェクトメソッドです。このメソッドはテーブルを検索し、その検索結果に応じて*bDelete*ボタンを使用可または不可にして、そのボタンタイトルを変更します:
 
 ```4d
  QUERY([People];[People]Name=vName)

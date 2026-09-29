@@ -11,18 +11,18 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| aTable | Table | &#8594; | レコードポインターがセレクションの最後のレコードよりも 後ろにあるかテストするテーブル、または 省略時、デフォルトテーブル |
+| aTable | Table | &#8594; | レコードポインタがセレクションの最後のレコードよりも 後ろにあるかテストするテーブル、または 省略時、デフォルトテーブル |
 | 戻り値 | Boolean | &#8592; | Yes (TRUE) or No (FALSE) |
 </div>
 <!-- END REF-->
 
 ## 説明 
 
-<!--REF #_command_.End selection.Summary-->**End selection** は、カレントレコードポインターが*aTable*のカレントセレクションの後ろにある場合TRUEを返します。<!-- END REF-->一般に**End selection** は、[NEXT RECORD](../commands/next-record) コマンドで、カレントレコードポインターが最後のレコードの後に移動したかどうかをチェックするために使用します。カレントセレクションが空の場合、**End selection** はTRUEを返します。
+<!--REF #_command_.End selection.Summary-->**End selection** は、カレントレコードポインタが*aTable*のカレントセレクションの後ろにある場合TRUEを返します。<!-- END REF-->一般に**End selection** は、[NEXT RECORD](../commands/next-record) コマンドで、カレントレコードポインタが最後のレコードの後に移動したかどうかをチェックするために使用します。カレントセレクションが空の場合、**End selection** はTRUEを返します。
 
-カレントレコードのポインターをセレクション内に戻すには、[FIRST RECORD](../commands/first-record)、[LAST RECORD](../commands/last-record) または [GOTO SELECTED RECORD](../commands/goto-selected-record) を使用します。[PREVIOUS RECORD](../commands/previous-record) では、ポインターはセレクション内に戻りません。
+カレントレコードのポインタをセレクション内に戻すには、[FIRST RECORD](../commands/first-record)、[LAST RECORD](../commands/last-record) または [GOTO SELECTED RECORD](../commands/goto-selected-record) を使用します。[PREVIOUS RECORD](../commands/previous-record) では、ポインタはセレクション内に戻りません。
 
-[PRINT SELECTION](../commands/print-selection) またはプリント...メニューを選択してレポートを印刷する場合、**End selection** は最後のフッターでTRUEを返します。以下のステートメントを使用して、最後のフッターを判定して最終ページに特殊なフッターを印刷することができます:
+[PRINT SELECTION](../commands/print-selection) またはプリント...メニューを選択してレポートを印刷する場合、**End selection** は最後のフッタでTRUEを返します。以下のステートメントを使用して、最後のフッタを判定して最終ページに特殊なフッタを印刷することができます:
 
 ```4d
   // 集計レポートの出力用フォームのフォームメソッド
@@ -41,7 +41,7 @@ displayed_sidebar: docs
 
 ## 例題 
 
-以下のフォームメソッドはレポートの印刷中に使用します。*vFooter*変数を設定し、最終ページのフッターエリアに印刷します:
+以下のフォームメソッドはレポートの印刷中に使用します。*vFooter*変数を設定し、最終ページのフッタエリアに印刷します:
 
 ```4d
   // [Finances];"Summary" Form Method

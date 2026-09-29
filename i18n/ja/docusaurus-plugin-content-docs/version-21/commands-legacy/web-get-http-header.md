@@ -11,8 +11,8 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| header&#124;fieldArray | テキスト, テキスト配列 | &#8592; | リクエストHTTPヘッダーまたはHTTPヘッダーフィールド |
-| valueArray | Text array | &#8592; | HTTPヘッダーフィールドの内容 |
+| header&#124;fieldArray | テキスト, テキスト配列 | &#8592; | リクエストHTTPヘッダまたはHTTPヘッダフィールド |
+| valueArray | Text array | &#8592; | HTTPヘッダフィールドの内容 |
 </div>
 <!-- END REF-->
 

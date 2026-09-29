@@ -12,7 +12,7 @@ displayed_sidebar: docs
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
 | objectsArray | Text array | &#8592; | フォームオブジェクト名 |
-| variablesArray | Pointer array | &#8592; | オブジェクトに関連付けられた 変数やフィールドへのポインター |
+| variablesArray | Pointer array | &#8592; | オブジェクトに関連付けられた 変数やフィールドへのポインタ |
 | pagesArray | Integer array | &#8592; | オブジェクトごとのページ番号 |
 | formPageOption &#124; * | 倍長整数, 演算子 | &#8594; | 1=Form current page, 2=Form all pages, 4=Form inherited<br/>* 指定時(廃止予定) = Form current pageとForm inherited |
 </div>
@@ -42,7 +42,7 @@ displayed_sidebar: docs
 
 コマンドにより代入される他の任意の配列は、1番目の配列との同期が取られます。
 
-任意の引数*variablesArray*にはポインター配列を渡し、この配列にはオブジェクトに関連付けられている変数やフィールドへのポインターが格納されます。オブジェクトに関連付けられた変数が存在しない場合、[Is nil pointer](../commands/is-nil-pointer) ポインターが返されます。“サブフォーム”オブジェクトタイプが存在する場合、サブフォームのテーブルへのポインターが返されます。
+任意の引数*variablesArray*にはポインタ配列を渡し、この配列にはオブジェクトに関連付けられている変数やフィールドへのポインタが格納されます。オブジェクトに関連付けられた変数が存在しない場合、[Is nil pointer](../commands/is-nil-pointer) ポインタが返されます。“サブフォーム”オブジェクトタイプが存在する場合、サブフォームのテーブルへのポインタが返されます。
 
 3番目の配列（任意）*pagesArray*には、フォームのページ番号が代入されます。この配列の各要素には、対応するオブジェクトのページ番号が格納されます。
 

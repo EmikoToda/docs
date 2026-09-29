@@ -28,7 +28,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.GET HIGHLIGHTED RECORDS.Summary-->GET HIGHLIGHTED RECORDS コマンドは、*aTable*中で (例: リストフォームでユーザーにより選択されて) ハイライトされたレコードを*setName*で指定したセットに格納します。<!-- END REF-->*aTable*を省略すると、カレントフォームまたはサブフォームのテーブルが使用されます。
+<!--REF #_command_.GET HIGHLIGHTED RECORDS.Summary-->GET HIGHLIGHTED RECORDS コマンドは、*aTable*中で (例: リストフォームでユーザにより選択されて) ハイライトされたレコードを*setName*で指定したセットに格納します。<!-- END REF-->*aTable*を省略すると、カレントフォームまたはサブフォームのテーブルが使用されます。
 
 デザインモードまたは[DISPLAY SELECTION](display-selection.md "DISPLAY SELECTION") / [MODIFY SELECTION](modify-selection.md "MODIFY SELECTION")コマンドを実行している時、このコマンドは4Dが自動で管理する**UserSet**を使用した呼び出しと置き換えることができます。しかしこのコマンドではハイライトさせたテーブルを選択することができるので、GET HIGHLIGHTED RECORDSを使用すればサブフォームのハイライトされたレコードを管理することも可能です。この場合、異なるテーブルのサブフォームのセレクションを扱うこともできます。**UserSet**に関する詳細はの節を参照してください。
 

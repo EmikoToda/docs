@@ -69,12 +69,12 @@ displayed_sidebar: docs
 *<!--#4DQRlHeader--><!--#4DQRdata--><!--/#4DQRlHeader-->*  
 *<!--#4DQRcHeader--><!--#4DQRdata--><!--/#4DQRcHeader-->*  
 *<!--#4DQRrHeader--><!--#4DQRdata--><!--/#4DQRrHeader-->*  
-これらのタグはそれぞれ、左ヘッダー、中央ヘッダー、右ヘッダーのデータで置き換えられます。
+これらのタグはそれぞれ、左ヘッダ、中央ヘッダ、右ヘッダのデータで置き換えられます。
 
 *<!--#4DQRlFooter--><!--#4DQRdata--><!--/#4DQRlFooter-->*  
 *<!--#4DQRcFooter--><!--#4DQRdata--><!--/#4DQRcFooter-->*  
 *<!--#4DQRrFooter--><!--#4DQRdata--><!--/#4DQRrFooter-->*  
-これらのタグはそれぞれ、左フッター、中央フッター、右フッターのデータで置き換えられます。
+これらのタグはそれぞれ、左フッタ、中央フッタ、右フッタのデータで置き換えられます。
 
 無効な*area*番号を渡した場合、エラー番号-9850が生成されます。
 

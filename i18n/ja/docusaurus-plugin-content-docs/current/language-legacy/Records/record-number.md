@@ -18,7 +18,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Record number.Summary-->**Record number**は、*aTable*のカレントレコードの物理レコード番号を返します。<!-- END REF-->レコードポインターがカレントセレクションの前後にある場合等、カレントレコードがない場合、**Record number**は-1を返します。カレントレコードが保存されていない新しいレコードの場合、**Record number**は-3を返します。
+<!--REF #_command_.Record number.Summary-->**Record number**は、*aTable*のカレントレコードの物理レコード番号を返します。<!-- END REF-->レコードポインタがカレントセレクションの前後にある場合等、カレントレコードがない場合、**Record number**は-1を返します。カレントレコードが保存されていない新しいレコードの場合、**Record number**は-3を返します。
 
 レコード番号は変わることがあります。削除されたレコードのレコード番号は再利用されます。
 

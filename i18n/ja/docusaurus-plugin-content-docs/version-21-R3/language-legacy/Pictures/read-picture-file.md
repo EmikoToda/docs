@@ -12,7 +12,7 @@ displayed_sidebar: docs
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
 | fileName | Text | &#8594; | 読み込むファイルのフルパス名, または空の文字列 |
-| picture | Picture | &#8592; | ピクチャーを受け取るフィールドまたは変数 |
+| picture | Picture | &#8592; | ピクチャを受け取るフィールドまたは変数 |
 | * | 演算子 | &#8594; | 指定時 = すべてのファイルタイプを受け入れる |
 </div>
 <!-- END REF-->
@@ -30,16 +30,16 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.READ PICTURE FILE.Summary-->READ PICTURE FILE コマンドを使用してディスクファイル*fileName* に保存されたピクチャーを開き、これを*picture* 引数に指定した4Dフィールドまたは変数へロードすることができます。<!-- END REF-->には読み込むファイルのフルパス名またはファイル名のみを渡すことができます。ファイル名のみを渡した場合、そのファイルはデータベースストラクチャーと同階層になければなりません。Windowsではファイル拡張子が必要です。  
-空の文字列 ("") が*fileName* に渡されると、標準のファイルを開くダイアログボックスが表示され、ユーザーは読み込むファイルやフォーマットを指定できます。 
+<!--REF #_command_.READ PICTURE FILE.Summary-->READ PICTURE FILE コマンドを使用してディスクファイル*fileName* に保存されたピクチャを開き、これを*picture* 引数に指定した4Dフィールドまたは変数へロードすることができます。<!-- END REF-->には読み込むファイルのフルパス名またはファイル名のみを渡すことができます。ファイル名のみを渡した場合、そのファイルはデータベースストラクチャと同階層になければなりません。Windowsではファイル拡張子が必要です。  
+空の文字列 ("") が*fileName* に渡されると、標準のファイルを開くダイアログボックスが表示され、ユーザは読み込むファイルやフォーマットを指定できます。 
 
 [PICTURE CODEC LIST](picture-codec-list.md "PICTURE CODEC LIST") コマンドを使用して、利用可能なフォーマットを取得できます。
 
-*picture*には、読み込んだピクチャーを受け取るピクチャー変数またはフィールドを渡します。
+*picture*には、読み込んだピクチャを受け取るピクチャ変数またはフィールドを渡します。
 
-**Note:** 内部的なピクチャーフォーマットは4D変数やフィールドに格納されます。 
+**Note:** 内部的なピクチャフォーマットは4D変数やフィールドに格納されます。 
 
-オプションの *\** 引数を渡すと、コマンドはすべてのタイプのファイルを受け入れます。この方法では、適切なcodecなしでもピクチャーを扱うことができます ([BLOB TO PICTURE](../commands/blob-to-picture) コマンドの説明を参照してください)。
+オプションの *\** 引数を渡すと、コマンドはすべてのタイプのファイルを受け入れます。この方法では、適切なcodecなしでもピクチャを扱うことができます ([BLOB TO PICTURE](../commands/blob-to-picture) コマンドの説明を参照してください)。
 
 ## システム変数およびセット 
 
@@ -50,7 +50,7 @@ displayed_sidebar: docs
 [BLOB TO PICTURE](../commands/blob-to-picture)  
 [PICTURE CODEC LIST](../commands/picture-codec-list)  
 [WRITE PICTURE FILE](../commands/write-picture-file)  
-*ピクチャー*  
+*ピクチャ*  
 
 ## プロパティ
 

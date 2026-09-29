@@ -33,7 +33,7 @@ displayed_sidebar: docs
 <!--REF #_command_.STRING LIST TO ARRAY.Summary-->**STRING LIST TO ARRAY**コマンドは以下の要素から構築される*strings*<!-- END REF-->配列を生成します:
 
 * ストリングリスト (“STR#”) リソースに格納された、IDが*resID*の文字列、または
-* 開かれたXLIFFファイル中、'group'要素の'id'属性が*resID*である文字列 (後述の"XLIFFアーキテクチャーとの互換性"を参照)。
+* 開かれたXLIFFファイル中、'group'要素の'id'属性が*resID*である文字列 (後述の"XLIFFアーキテクチャとの互換性"を参照)。
 
 リソースが見つからない場合*strings*配列はそのまま変更されず、システム変数OKに0が設定されます。
 
@@ -45,9 +45,9 @@ displayed_sidebar: docs
 
 **Tip:** ストリングリストの総サイズを32Kに、また1リソースあたり数百文字列に制限しなければなりません。
 
-## XLIFFアーキテクチャーとの互換性 
+## XLIFFアーキテクチャとの互換性 
 
-4D v11より、**STRING LIST TO ARRAY**コマンドはXLIFFアーキテクチャーと互換があります。コマンドはまず*resID*と*strID*に対応するリソースをすべての開かれたXLIFFファイル内で探します (*resFile* 引数が省略されていれば)。この場合、*resID*は**group**要素の**id**属性を表し、*strID*は**trans-unit**要素の**id**属性を表します。値が見つからない場合、コマンドは引き続き開かれたリソースファイルを検索します。4DにおけるXLIFFアーキテクチャーに関する詳細は4D Design Referenceマニュアルを参照してください。
+4D v11より、**STRING LIST TO ARRAY**コマンドはXLIFFアーキテクチャと互換があります。コマンドはまず*resID*と*strID*に対応するリソースをすべての開かれたXLIFFファイル内で探します (*resFile* 引数が省略されていれば)。この場合、*resID*は**group**要素の**id**属性を表し、*strID*は**trans-unit**要素の**id**属性を表します。値が見つからない場合、コマンドは引き続き開かれたリソースファイルを検索します。4DにおけるXLIFFアーキテクチャに関する詳細は4D Design Referenceマニュアルを参照してください。
 
 ## システム変数およびセット 
 

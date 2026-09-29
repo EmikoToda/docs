@@ -41,7 +41,7 @@ displayed_sidebar: docs
 * 4Dによって内部的に管理される以下のコーデックについては、必ず拡張子形式で返されます:JPEG、PNG、TIFF、GIF、BMP、SVG、PDF、EMF
 * 4文字のQuickTimeコードは、QuickTime support互換性オプションが([SET DATABASE PARAMETER](../commands/set-database-parameter)コマンドを使用して)設定されているデータベースにおいて返すことが可能です。しかしながら、QuickTimeは4Dではサポートされておらず、QuickTimeコーデックの使用は推奨されません。
 
-ピクチャーコーデックIDについてのより詳細な情報については、*ピクチャー*の章を参照して下さい。
+ピクチャーコーデックIDについてのより詳細な情報については、*ピクチャ*の章を参照して下さい。
 
 ## 例題 
 

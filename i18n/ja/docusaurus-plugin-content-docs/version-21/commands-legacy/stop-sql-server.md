@@ -26,9 +26,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.STOP SQL SERVER.Summary-->STOP SQL SERVERコマンドは、実行済み4Dアプリケーションの統合SQLサーバーを停止します。<!-- END REF-->
+<!--REF #_command_.STOP SQL SERVER.Summary-->STOP SQL SERVERコマンドは、実行済み4Dアプリケーションの統合SQLサーバを停止します。<!-- END REF-->
 
-SQLサーバーが起動していた場合、すべてのSQL接続が中断します。そして以降、サーバーは外部SQLクエリを受け入れません。SQLサーバーが起動していなかった場合、このコマンドは何も行いません。
+SQLサーバが起動していた場合、すべてのSQL接続が中断します。そして以降、サーバは外部SQLクエリを受け入れません。SQLサーバが起動していなかった場合、このコマンドは何も行いません。
 
 **Note:** このコマンドは4Dの内部SQLカーネルの機能には影響しません。内部クエリの際、SQLカーネルはいつでも利用できます。
 

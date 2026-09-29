@@ -30,7 +30,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.SAX GET XML DOCUMENT VALUES.Summary-->SAX GET XML DOCUMENT VALUES コマンドは、*document* 引数で参照されるXMLドキュメントのXMLヘッダーから基本情報を取得します。<!-- END REF--> 
+<!--REF #_command_.SAX GET XML DOCUMENT VALUES.Summary-->SAX GET XML DOCUMENT VALUES コマンドは、*document* 引数で参照されるXMLドキュメントのXMLヘッダから基本情報を取得します。<!-- END REF--> 
 
 コマンドはエンコーディングのタイプ、バージョン、そして"スタンドアロン" プロパティをそれぞれ*encoding*、*version*、そして*standalone*引数に返します。このコマンドはXML Start Documentイベント内で使用されなければなりません。SAXイベントに関する詳細は[SAX Get XML node](sax-get-xml-node.md "SAX Get XML node") コマンドの説明を参照してください。
 

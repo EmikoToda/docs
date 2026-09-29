@@ -44,7 +44,7 @@ macOSではアプリケーション名を渡すこともできます。4Dは環�
 
 **警告:** このコマンドは実行可能なアプリケーションのみを起動することができます。シェル (コマンドインタプリタ) の一部である命令は実行できません。例えば、macOSではこのコマンドを用いて*echo*命令やインダイレクトを実行することはできません。
 
-オプションの*inputStream*引数は外部プロセスの*stdin*を格納します。コマンドが実行されると、引数*outputStream*と*errorStream* (渡した場合) は外部プロセスの*stdout*と*stderr*をそれぞれ返します。(例えばピクチャーのような)バイナリーデータを扱っている場合、文字列の代わりにBLOB引数を使用します。
+オプションの*inputStream*引数は外部プロセスの*stdin*を格納します。コマンドが実行されると、引数*outputStream*と*errorStream* (渡した場合) は外部プロセスの*stdout*と*stderr*をそれぞれ返します。(例えばピクチャのような)バイナリデータを扱っている場合、文字列の代わりにBLOB引数を使用します。
 
 4D では**LAUNCH EXTERNAL PROCESS** のコンテキストで使用可能で、[SET ENVIRONMENT VARIABLE](../commands/set-environment-variable) コマンドを使用して設定可能な3つの特定の環境変数を提供しています:
 
@@ -125,7 +125,7 @@ Application/UtilitiesフォルダーにあるmacOS ターミナルを使用し�
  LAUNCH EXTERNAL PROCESS("mycommand")
 ```
 
-10\. ユーザーが選択した外部ドキュメントをWindowsで開く
+10\. ユーザが選択した外部ドキュメントをWindowsで開く
 
 ```4d
  $docname:=Select document("";"*.*";"Choose the file to open";0)

@@ -43,7 +43,7 @@ var $blob:=cs._ImageUtils.me.base64ToBlob("iVBORw0KGgoAAAANSUhEUgAAAAUA...")
 
 | 引数         | 型       | 説明                                                          |
 | ---------- | ------- | ----------------------------------------------------------- |
-| $imageInfo | Variant | 画像情報(ピクチャー、ファイルオブジェクト、URL、あるいはテキストのいずれか)。 |
+| $imageInfo | Variant | 画像情報(ピクチャ、ファイルオブジェクト、URL、あるいはテキストのいずれか)。 |
 
 **戻り値**: Blob 、あるいは入力が無効の場合には Null。
 

@@ -41,7 +41,7 @@ displayed_sidebar: docs
 
 ## 例題 
 
-以下の例は1件の\[employee\]レコードを削除します。まずユーザーにどのemployeeレコードを削除するのかを尋ね、\[employee\]レコードを検索し、見つかったレコードを削除します:
+以下の例は1件の\[employee\]レコードを削除します。まずユーザにどのemployeeレコードを削除するのかを尋ね、\[employee\]レコードを検索し、見つかったレコードを削除します:
 
 ```4d
  vFind:=Request("Employee ID to delete:") // 従業員IDを要求
@@ -54,7 +54,7 @@ displayed_sidebar: docs
 ## 参照 
 
 [Locked](locked.md)  
-*トリガー*  
+*トリガ*  
 
 ## プロパティ
 

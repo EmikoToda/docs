@@ -28,7 +28,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.WEB Is secured connection.Summary-->**WEB Is secured connection**コマンドは、4DのWebサーバー接続が (リクエストが"http:"の代わりに"https:"で始まる) TLS/SSLを通して保護モードで実行されたかを示すブール値を返します 。<!-- END REF-->
+<!--REF #_command_.WEB Is secured connection.Summary-->**WEB Is secured connection**コマンドは、4DのWebサーバ接続が (リクエストが"http:"の代わりに"https:"で始まる) TLS/SSLを通して保護モードで実行されたかを示すブール値を返します 。<!-- END REF-->
 
 * TLS/SSLを経由して接続された場合、関数はTrueを返します。
 * 非保護モードで接続された場合、関数はFalseを返します。

@@ -40,7 +40,7 @@ displayed_sidebar: docs
 
 ## 例題 
 
-以下の例は、フォームのブレークエリア (B0、B0マーカーの上のエリア) のオブジェクトメソッドです。*vSalary*変数はブレークエリアにあります。このブレークレベルが発生すると、変数に\[Employees\]Salaryフィールドの小計が代入されます。ブレーク処理は事前に[BREAK LEVEL](../commands/break-level) と [ACCUMULATE](../commands/accumulate) コマンドを使用して有効にされていなければなりません。
+以下の例は、フォームのブレークエリア (B0、B0マーカの上のエリア) のオブジェクトメソッドです。*vSalary*変数はブレークエリアにあります。このブレークレベルが発生すると、変数に\[Employees\]Salaryフィールドの小計が代入されます。ブレーク処理は事前に[BREAK LEVEL](../commands/break-level) と [ACCUMULATE](../commands/accumulate) コマンドを使用して有効にされていなければなりません。
 
 ```4d
  Case of
@@ -49,7 +49,7 @@ displayed_sidebar: docs
  End case
 ```
 
-フォームのヘッダーとブレークエリアを使用したフォームのデザインに関するより詳しい情報は、4D Design Referenceマニュアルを参照してください。
+フォームのヘッダとブレークエリアを使用したフォームのデザインに関するより詳しい情報は、4D Design Referenceマニュアルを参照してください。
 
 ## フォームレポートにおけるブレーク処理の起動 
 

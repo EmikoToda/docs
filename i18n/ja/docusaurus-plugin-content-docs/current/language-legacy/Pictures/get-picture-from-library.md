@@ -11,8 +11,8 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| picRef &#124; picName | 倍長整数, 文字 | &#8594; | ピクチャーライブラリ画像の参照番号 または ピクチャーライブラリ画像の名前 |
-| picture | Picture | &#8592; | ピクチャーライブラリのピクチャー |
+| picRef &#124; picName | 倍長整数, 文字 | &#8594; | ピクチャライブラリ画像の参照番号 または ピクチャライブラリ画像の名前 |
+| picture | Picture | &#8592; | ピクチャライブラリのピクチャ |
 </div>
 <!-- END REF-->
 
@@ -31,17 +31,17 @@ displayed_sidebar: docs
 
 :::警告
 
-このコマンドはプロジェクトモードでは使用できません。ピクチャーライブラリはバイナリーデータベースでのみ利用可能だからです。
+このコマンドはプロジェクトモードでは使用できません。ピクチャライブラリはバイナリーデータベースでのみ利用可能だからです。
 
 :::
 
-<!--REF #_command_.GET PICTURE FROM LIBRARY.Summary-->GET PICTURE FROM LIBRARY コマンドは、*picRef*に渡された参照番号または*picName*に渡された名前を持つピクチャーライブラリの画像を*picture*引数に返します。<!-- END REF-->
+<!--REF #_command_.GET PICTURE FROM LIBRARY.Summary-->GET PICTURE FROM LIBRARY コマンドは、*picRef*に渡された参照番号または*picName*に渡された名前を持つピクチャライブラリの画像を*picture*引数に返します。<!-- END REF-->
 
-参照番号または名前に対応するピクチャーがない場合、GET PICTURE FROM LIBRARYコマンドは*picture*を変更しません。
+参照番号または名前に対応するピクチャがない場合、GET PICTURE FROM LIBRARYコマンドは*picture*を変更しません。
 
 ## 例題 1 
 
-以下の例は、参照番号がローカル変数$vlPicRef変数に格納されたピクチャーをvgMyPicture変数に返します:  
+以下の例は、参照番号がローカル変数$vlPicRef変数に格納されたピクチャをvgMyPicture変数に返します:  
 
 ```4d
  GET PICTURE FROM LIBRARY($vlPicRef;vgMyPicture)
@@ -50,7 +50,7 @@ displayed_sidebar: docs
   
 ## 例題 2 
 
-次の例では$DDcom\_Prot\_MyPictureに、ピクチャーライブラリ中に保存されている"DDcom\_Prot\_Button1"という名前の画像を返します:  
+次の例では$DDcom\_Prot\_MyPictureに、ピクチャライブラリ中に保存されている"DDcom\_Prot\_Button1"という名前の画像を返します:  
   
 ```4d
  GET PICTURE FROM LIBRARY("DDcom_Prot_Button1";$DDcom_Prot_MyPicture)
@@ -62,11 +62,11 @@ displayed_sidebar: docs
 
 ## システム変数およびセット 
 
-ピクチャーライブラリが存在すればOK変数に１が設定され、そうでなければ0が設定されます。
+ピクチャライブラリが存在すればOK変数に１が設定され、そうでなければ0が設定されます。
 
 ## エラー管理 
 
-ピクチャーに返すための十分なメモリがない場合、エラーコード-108が生成されます。エラー処理メソッドを使って、このエラーを受け取ることができます。
+ピクチャに返すための十分なメモリがない場合、エラーコード-108が生成されます。エラー処理メソッドを使って、このエラーを受け取ることができます。
 
 ## 参照 
 

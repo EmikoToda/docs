@@ -46,7 +46,7 @@ displayed_sidebar: docs
 
 ## 例題 
 
-**Trigger event**コマンドを使用して、以下のようにトリガーを作成します。
+**Trigger event**コマンドを使用して、以下のようにトリガを作成します。
 
 ```4d
   //[anyTable] 用のトリガー
@@ -67,7 +67,7 @@ displayed_sidebar: docs
 [In transaction](../commands/in-transaction)  
 [Trigger level](../commands/trigger-level)  
 [TRIGGER PROPERTIES](../commands/trigger-properties)  
-*トリガー*  
+*トリガ*  
 
 ## プロパティ
 

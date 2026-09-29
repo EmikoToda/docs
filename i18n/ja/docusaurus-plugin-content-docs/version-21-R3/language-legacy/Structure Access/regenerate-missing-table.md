@@ -27,9 +27,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.REGENERATE MISSING TABLE.Summary-->REGENERATE MISSING TABLE コマンドは tableName引数に渡された名前の失われたテーブルを再構築します。<!-- END REF-->失われたテーブルが再構築されると、ストラクチャーエディターにそれらが現れ、データに再びアクセスできるようになります。
+<!--REF #_command_.REGENERATE MISSING TABLE.Summary-->REGENERATE MISSING TABLE コマンドは tableName引数に渡された名前の失われたテーブルを再構築します。<!-- END REF-->失われたテーブルが再構築されると、ストラクチャエディタにそれらが現れ、データに再びアクセスできるようになります。
 
-失われたテーブルとは、データファイル中にデータがあるにもかかわらず、ストラクチャーレベルに存在しないテーブルのことです。新しい[GET MISSING TABLE NAMES](get-missing-table-names.md "GET MISSING TABLE NAMES")コマンドを使用して、アプリケーション中に存在するかもしれない失われたテーブルを識別できます。
+失われたテーブルとは、データファイル中にデータがあるにもかかわらず、ストラクチャレベルに存在しないテーブルのことです。新しい[GET MISSING TABLE NAMES](get-missing-table-names.md "GET MISSING TABLE NAMES")コマンドを使用して、アプリケーション中に存在するかもしれない失われたテーブルを識別できます。
 
 *tableName*で指定されたテーブルがデータベースの失われたテーブルでない場合、コマンドはなにも行いません。 
 

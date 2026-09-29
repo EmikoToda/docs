@@ -42,7 +42,7 @@ displayed_sidebar: docs
 * 引数*created on*および*created at*に、ドキュメントの作成日および作成時間を渡します。
 * 引数*modified on*および*modified at*に、最新のドキュメント更新日および更新時間を渡します。
 
-作成および最新の更新の日付および時間は、ドキュメントを作成、またはこれにアクセスするたびに、システムのファイルマネージャーによって管理されます。このコマンドを使用すると、特別な用途のためにこれらのプロパティを変更することができます。 [GET DOCUMENT PROPERTIES](get-document-properties.md "GET DOCUMENT PROPERTIES")コマンドの例を参照してください。
+作成および最新の更新の日付および時間は、ドキュメントを作成、またはこれにアクセスするたびに、システムのファイルマネージャによって管理されます。このコマンドを使用すると、特別な用途のためにこれらのプロパティを変更することができます。 [GET DOCUMENT PROPERTIES](get-document-properties.md "GET DOCUMENT PROPERTIES")コマンドの例を参照してください。
 
 ## 参照 
 

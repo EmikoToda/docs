@@ -16,7 +16,7 @@ displayed_sidebar: docs
 | aTable    | Table        | &#8594; | フォームが属するテーブル, または 省略した場合は、デフォルトテーブル                                                                                           |
 | form      | Text, Object | &#8594; | フォーム名(文字列)、あるいはフォームを定義した.jsonファイルへのPOSIXパス(文字列)、あるいは印刷するフォームを定義したオブジェクト |
 | formData  | Object       | &#8594; | フォームに関連づけるデータ                                                                                                                 |
-| areaStart | Integer      | &#8594; | 印刷マーカー、または開始エリア(areaEndが指定された場合)                                                                            |
+| areaStart | Integer      | &#8594; | 印刷マーカ、または開始エリア(areaEndが指定された場合)                                                                            |
 | areaEnd   | Integer      | &#8594; | 終了エリア(areaStartが指定された場合)                                                                                   |
 | 戻り値       | Integer      | &#8592; | 印刷されたエリアの高さ                                                                                                                   |
 
@@ -57,7 +57,7 @@ displayed_sidebar: docs
  height:=Print form(myTable;myForm)
 ```
 
-この場合、**Print form** はフォームの詳細エリア (ヘッダーマーカーと詳細マーカーの間のエリア) だけを印刷します。
+この場合、**Print form** はフォームの詳細エリア (ヘッダマーカと詳細マーカの間のエリア) だけを印刷します。
 
 - **フォームエリアの印刷**
 
@@ -117,7 +117,7 @@ form data オブジェクトについての詳細な情報については、[`DI
 
 **Print form** を使用する場合、印刷ダイアログボックス は表示されません。 レポート はデザインモードでフォームに割り当てられた用紙設定を使用しません。 **Print form** を呼び出す前に用紙設定を指定する方法は2通りあります:
 
-- [PRINT SETTINGS](../commands/print-settings) コマンドを使用する。  この場合、ユーザーが設定を行います。
+- [PRINT SETTINGS](../commands/print-settings) コマンドを使用する。  この場合、ユーザが設定を行います。
 - [SET PRINT OPTION](../commands/set-print-option) と [GET PRINT OPTION](../commands/get-print-option) コマンドを使用する。  この場合、用紙設定はプログラムで指定します。
 
 **Print form** は、印刷するページをそれぞれメモリ 中に作成します。 各ページはメモリ中のページがいっぱいになるか、[PAGE BREAK](../commands/page-break) コマンドを実行すると印刷されます。 **Print form** の使用後、最後のページの印刷を確実に行うためには、[PAGE BREAK](../commands/page-break) コマンドで終了しなければなりません(ただし [OPEN PRINTING JOB](../commands/open-printing-job) のコンテキスト内の場合を除く、注意参照)。 そうでないと、最後のページが一杯にならないと、それはメモリ中に残り印刷されません。
@@ -130,10 +130,10 @@ form data オブジェクトについての詳細な情報については、[`DI
 
 **Print form** は、1回だけフォームメソッドの[`On Printing Detail` event](../../Events/onPrintingDetail.md) イベントを生成します。
 
-**4D Server:** このコマンドは、ストアドプロシージャーのフレームワークにおいて4D Server 上で実行することができます。  この状況では、次の制約があります:
+**4D Server:** このコマンドは、ストアドプロシージャのフレームワークにおいて4D Server 上で実行することができます。  この状況では、次の制約があります:
 
-- サーバーマシン上ではダイアログボックスを一切表示しないでください (特定の必要性がある場合を除く)。
-- プリンター関連の問題が発生しても (用紙切れ、プリンター接続切断等) 、エラーメッセージは生成されません。
+- サーバマシン上ではダイアログボックスを一切表示しないでください (特定の必要性がある場合を除く)。
+- プリンタ関連の問題が発生しても (用紙切れ、プリンタ接続切断等) 、エラーメッセージは生成されません。
 
 ## 例題 1
 

@@ -30,7 +30,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.CREATE DATA FILE.Summary-->**CREATE DATA FILE**コマンドは、オンザフライで新しいデータファイルをディスク上に作成し、4Dアプリケーションで開かれているデータファイルと置き換えます。<!-- END REF-->
 
-このコマンドの動作は、[OPEN DATA FILE](../commands/open-data-file)コマンドと同じです。唯一の相違点は、ストラクチャーファイルを再オープンした後に、*accessPath*引数で指定された新しいデータファイルを作成することです。
+このコマンドの動作は、[OPEN DATA FILE](../commands/open-data-file)コマンドと同じです。唯一の相違点は、ストラクチャファイルを再オープンした後に、*accessPath*引数で指定された新しいデータファイルを作成することです。
 
 処理を開始する前に、コマンドは指定されたアクセスパスが既存のファイルに該当していないかどうかを調べます。
 

@@ -32,7 +32,7 @@ displayed_sidebar: docs
 
 このコマンドの効果は[ALL RECORDS](all-records.md "ALL RECORDS")と[DELETE SELECTION](delete-selection.md "DELETE SELECTION")の呼び出しと同じです。しかしその動作は以下の点で異なります:
 
-* トリガーは呼び出されません。
+* トリガは呼び出されません。
 * データの参照整合性はチェックされません。
 * TRUNCATE TABLEを実行するプロセスはトランザクション中であってはなりません。トランザクション中の場合、コマンドは何も行わず、OKシステム変数に0が設定されます。
 * 1つ以上のレコードが他のプロセスによりロックされていると、コマンドは失敗します。エラーが生成され、OKシステム変数に0が設定されます。**LockedSet**システムセットは作成されません。

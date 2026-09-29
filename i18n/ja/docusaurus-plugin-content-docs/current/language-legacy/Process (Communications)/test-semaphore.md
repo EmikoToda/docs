@@ -11,8 +11,8 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| semaphore | Text | &#8594; | テストするセマフォー |
-| 戻り値 | Boolean | &#8592; | True: セマフォーが存在する, False: セマフォーは存在しない |
+| semaphore | Text | &#8594; | テストするセマフォ |
+| 戻り値 | Boolean | &#8592; | True: セマフォが存在する, False: セマフォは存在しない |
 </div>
 <!-- END REF-->
 
@@ -28,13 +28,13 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Test semaphore.Summary-->Test semaphore コマンドは、セマフォーの存在をテストします。<!-- END REF-->
+<!--REF #_command_.Test semaphore.Summary-->Test semaphore コマンドは、セマフォの存在をテストします。<!-- END REF-->
 
-[Semaphore](semaphore.md "Semaphore")関数とTest semaphore関数の違いは、Test semaphoreはセマフォーが存在しない場合には*semaphore*を作成しないということです。*semaphore*が存在している場合、関数は[True](../commands/true)を返します。そうでない場合は[False](../commands/false)を返します。
+[Semaphore](semaphore.md "Semaphore")関数とTest semaphore関数の違いは、Test semaphoreはセマフォが存在しない場合には*semaphore*を作成しないということです。*semaphore*が存在している場合、関数は[True](../commands/true)を返します。そうでない場合は[False](../commands/false)を返します。
 
 ## 例題 
 
-下記の例は、セマフォーを変更せずにプロセスの状態 (この場合は、コードを変更して  
+下記の例は、セマフォを変更せずにプロセスの状態 (この場合は、コードを変更して  
 いる最中かどうか) を知ることを可能にするものです:
 
 ```4d

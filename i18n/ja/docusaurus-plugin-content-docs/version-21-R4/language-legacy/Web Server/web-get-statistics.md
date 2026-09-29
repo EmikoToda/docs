@@ -30,9 +30,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.WEB GET STATISTICS.Summary-->**WEB GET STATISTICS**コマンドを使用すると、Webサーバーのキャッシュに読み込まれた最も閲覧されたページに関する情報を取得 することができます。<!-- END REF-->そのため、これらの統計は、静止画、GIFピクチャー、JPEGピクチャー (100KB未満) とスタイルシート (.css) のみに適用されます。
+<!--REF #_command_.WEB GET STATISTICS.Summary-->**WEB GET STATISTICS**コマンドを使用すると、Webサーバのキャッシュに読み込まれた最も閲覧されたページに関する情報を取得 することができます。<!-- END REF-->そのため、これらの統計は、静止画、GIFピクチャ、JPEGピクチャ (100KB未満) とスタイルシート (.css) のみに適用されます。
 
-**Note:** 4D Webサーバーのキャッシュの設定に関する詳細は[QR DELETE COLUMN](../commands/qr-delete-column)を参照してください。
+**Note:** 4D Webサーバのキャッシュの設定に関する詳細は[QR DELETE COLUMN](../commands/qr-delete-column)を参照してください。
 
 コマンドは最も閲覧されたページの名前をテキスト配列*pages*に代入します。倍長整数配列 *hits* は各ページの "ヒット" 数を受け取ります。引数 *usage* は各ページごとのWebキャッシュの使用率を受け取ります。
 

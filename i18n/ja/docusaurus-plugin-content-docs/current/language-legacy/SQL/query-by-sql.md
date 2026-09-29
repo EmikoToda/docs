@@ -64,7 +64,7 @@ QUERY BY SQLは、テーブルセレクションの各レコードに*sqlFormula
 
 ### リレーションについて 
 
-4Dのストラクチャーエディターで定義されたテーブル間で、QUERY BY SQLはリレーションを使用しません。関連するデータを利用したい場合、クエリへJOINを追加する必要があります。例えば、\[Persons\]Cityから\[Cities\]Nameの間に、N対1リレーションを持つ以下のストラクチャーがあると仮定します:
+4Dのストラクチャエディタで定義されたテーブル間で、QUERY BY SQLはリレーションを使用しません。関連するデータを利用したい場合、クエリへJOINを追加する必要があります。例えば、\[Persons\]Cityから\[Cities\]Nameの間に、N対1リレーションを持つ以下のストラクチャがあると仮定します:
 
 ```SQL
    [People]      Name      City   [Cities]      Name      Population
@@ -141,7 +141,7 @@ QUERY BY SQL コマンドを使用すると、
 ```
 
 \[Lines\_Invoices\]ID\_Invから\[Invoices\]ID\_Invの間に、N対1のリレーションがあります。  
-[QUERY BY FORMULA](query-by-formula.md "QUERY BY FORMULA")コマンドでストラクチャーのリレーションを使用する場合、以下のように記述します:
+[QUERY BY FORMULA](query-by-formula.md "QUERY BY FORMULA")コマンドでストラクチャのリレーションを使用する場合、以下のように記述します:
 
 ```4d
  QUERY BY FORMULA([Lines_Invoices];([Lines_Invoices]Code="FX-200") & (Month of([Invoices]Date_Inv)=4))

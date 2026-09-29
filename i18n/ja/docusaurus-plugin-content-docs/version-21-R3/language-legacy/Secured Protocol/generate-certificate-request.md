@@ -30,9 +30,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.GENERATE CERTIFICATE REQUEST.Summary-->**GENERATE CERTIFICATE REQUEST** コマンドは、Verisign(R)等の認証局で使用されているPKCSフォーマットで証明書リクエストを生成します。<!-- END REF-->証明書はSSL暗号化プロトコルの重要な役割を持ちます。これはSSLモードで接続している各ブラウザーに送信され、Webサイトの“IDカード” (このコマンドに指定した情報をもとに作成) とともに、ブラウザーが受信情報の解読に使用できる公開鍵も納められています。さらにこの証明書には、整合性を保証する認証局により加えられた各種情報も納められます。
+<!--REF #_command_.GENERATE CERTIFICATE REQUEST.Summary-->**GENERATE CERTIFICATE REQUEST** コマンドは、Verisign(R)等の認証局で使用されているPKCSフォーマットで証明書リクエストを生成します。<!-- END REF-->証明書はSSL暗号化プロトコルの重要な役割を持ちます。これはSSLモードで接続している各ブラウザに送信され、Webサイトの“IDカード” (このコマンドに指定した情報をもとに作成) とともに、ブラウザが受信情報の解読に使用できる公開鍵も納められています。さらにこの証明書には、整合性を保証する認証局により加えられた各種情報も納められます。
 
-**Note:** 4D Webサーバーで使用するSSLプロトコルに関する詳細は[WEB SERVICE SET PARAMETER](../commands/web-service-set-parameter) の節を参照してください。
+**Note:** 4D Webサーバで使用するSSLプロトコルに関する詳細は[WEB SERVICE SET PARAMETER](../commands/web-service-set-parameter) の節を参照してください。
 
 証明書リクエストには、[GENERATE ENCRYPTION KEYPAIR](../commands/generate-encryption-keypair) コマンドで生成した一対の鍵が使用され、各種情報が納められます。認証局では、このリクエストと他の引数を組み合わせて証明書を作成します。
 
@@ -43,7 +43,7 @@ displayed_sidebar: docs
 **警告:** 秘密鍵はリクエストの作成に使用しますが、認証局へ送信してはいけません。
 
 *codeArray* (倍長整数) および*nameArray* (文字列) にはそれぞれ、認証局から要求されるコード番号と情報内容を納めます。  
-必要とされるコードおよび名称は、認証局や証明書の用途によって変わる場合があります。しかし、証明書の通常の用途であれば (SSL経由でのWebサーバー接続)、この配列には以下の項目を納める必要があります:
+必要とされるコードおよび名称は、認証局や証明書の用途によって変わる場合があります。しかし、証明書の通常の用途であれば (SSL経由でのWebサーバ接続)、この配列には以下の項目を納める必要があります:
 
 | **提供する情報**                | **codeArray** | **nameArray (例)** |
 | ------------------------- | ------------- | ----------------- |

@@ -28,9 +28,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.LIST OF CHOICE LISTS.Summary-->LIST OF CHOICE LISTS コマンドは同期された*numsArr* と *namesArr* 配列に、デザインモードのリストエディターで定義された選択リストの番号と名前を返します。<!-- END REF-->
+<!--REF #_command_.LIST OF CHOICE LISTS.Summary-->LIST OF CHOICE LISTS コマンドは同期された*numsArr* と *namesArr* 配列に、デザインモードのリストエディタで定義された選択リストの番号と名前を返します。<!-- END REF-->
 
-選択リストの番号はそれが作られた順番に対応します。リストエディター中、リストは名前順に表示されます。
+選択リストの番号はそれが作られた順番に対応します。リストエディタ中、リストは名前順に表示されます。
 
 
 ## プロパティ

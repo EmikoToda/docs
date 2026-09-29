@@ -77,7 +77,7 @@ displayed_sidebar: docs
 
 > ****互換性に関する注意:** v11 以前のバージョンから返還されたデータベースとの互換性のため、JOINメカニズムを無効にできます。これには[SET DATABASE PARAMETER](set-database-parameter.md)コマンドのセレクターを使用します。
 
-**4D Server:** このコマンドはサーバー上で実行され、実行が最適化されるようになりました。*queryFormula*内で直接変数が呼ばれているとき、クライアントマシンの変数値を使用してクエリを計算します。例えば**QUERY BY FORMULA**(\[mytable\];\[mytable\]myfield=myvariable)というステートメントはサーバー上で実行されますが、*myvariable*変数の内容はクライアントマシンのものが使用されます。
+**4D Server:** このコマンドはサーバ上で実行され、実行が最適化されるようになりました。*queryFormula*内で直接変数が呼ばれているとき、クライアントマシンの変数値を使用してクエリを計算します。例えば**QUERY BY FORMULA**(\[mytable\];\[mytable\]myfield=myvariable)というステートメントはサーバ上で実行されますが、*myvariable*変数の内容はクライアントマシンのものが使用されます。
 
 **互換性に関する注意:** 4D Server v11までは、このコマンドはクライアントマシン上で実行されていました。後方互換性のために、この振る舞いは変換されたデータベースでは維持されています。しかしながら、互換性プロパティ、あるいは[SET DATABASE PARAMETER](set-database-parameter.md) コマンドのセレクターを使用することで、変換されたデータベースでもサーバー側での実行が有効化されます。
 

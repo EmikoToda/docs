@@ -33,7 +33,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.POST EVENT.Summary-->POST EVENT コマンドは、キーボードまたはマウスイベントをシミュレートします。<!-- END REF-->これは、ユーザーが実際にキーボードやマウス上で動作を行った場合と同様の結果を生じます。
+<!--REF #_command_.POST EVENT.Summary-->POST EVENT コマンドは、キーボードまたはマウスイベントをシミュレートします。<!-- END REF-->これは、ユーザが実際にキーボードやマウス上で動作を行った場合と同様の結果を生じます。
 
 引数 *what* には、以下の値のいずれかを渡します。
 

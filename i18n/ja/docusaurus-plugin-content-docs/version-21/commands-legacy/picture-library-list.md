@@ -11,8 +11,8 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| picRefs | Integer array | &#8592; | ピクチャーライブラリ画像の参照番号 |
-| picNames | Text array | &#8592; | ピクチャーライブラリ画像の名前 |
+| picRefs | Integer array | &#8592; | ピクチャライブラリ画像の参照番号 |
+| picNames | Text array | &#8592; | ピクチャライブラリ画像の名前 |
 </div>
 <!-- END REF-->
 
@@ -30,26 +30,26 @@ displayed_sidebar: docs
 
 :::警告
 
-このコマンドはプロジェクトモードでは使用できません。ピクチャーライブラリはバイナリーデータベースでのみ利用可能だからです。
+このコマンドはプロジェクトモードでは使用できません。ピクチャライブラリはバイナリーデータベースでのみ利用可能だからです。
 
 :::
 
 
-<!--REF #_command_.PICTURE LIBRARY LIST.Summary-->PICTURE LIBRARY LIST コマンドは、データベースのピクチャーライブラリの中に現在格納されているピクチャーの参照番号と名前を返します。<!-- END REF-->
+<!--REF #_command_.PICTURE LIBRARY LIST.Summary-->PICTURE LIBRARY LIST コマンドは、データベースのピクチャライブラリの中に現在格納されているピクチャの参照番号と名前を返します。<!-- END REF-->
 
-このコマンドを呼び出すと、*picRefs*配列の中に参照番号、*picNames*配列の中にピクチャー名が返されます。この2つの配列は同期します。つまり*picRefs*配列のn番目の要素は、ピクチャーライブラリ内で*picNames*配列のn番目の要素内に返されるピクチャー名が持つ参照番号になります。
+このコマンドを呼び出すと、*picRefs*配列の中に参照番号、*picNames*配列の中にピクチャ名が返されます。この2つの配列は同期します。つまり*picRefs*配列のn番目の要素は、ピクチャライブラリ内で*picNames*配列のn番目の要素内に返されるピクチャ名が持つ参照番号になります。
 
 必要であればコマンドは自動で*picRefs*と*picNames*配列を作成しサイズ調整します。
 
-ピクチャーライブラリのピクチャーの名前は最大255文字です。
+ピクチャライブラリのピクチャの名前は最大255文字です。
 
-ピクチャーライブラリの中にピクチャーがない場合、両方の配列は空で返されます。
+ピクチャライブラリの中にピクチャがない場合、両方の配列は空で返されます。
 
-ピクチャーライブラリの中に現在格納されているピクチャーの数を取得するには、[Size of array](size-of-array.md "Size of array")コマンドを使って、2つの配列のどちらかのサイズを取得します。
+ピクチャライブラリの中に現在格納されているピクチャの数を取得するには、[Size of array](size-of-array.md "Size of array")コマンドを使って、2つの配列のどちらかのサイズを取得します。
 
 ## 例題 1 
 
-以下のコードは、配列*alPicRef*と*asPicName*の中にピクチャーライブラリのカタログを返します:
+以下のコードは、配列*alPicRef*と*asPicName*の中にピクチャライブラリのカタログを返します:
 
 ```4d
  PICTURE LIBRARY LIST(alPicRef;asPicName)
@@ -57,7 +57,7 @@ displayed_sidebar: docs
 
 ## 例題 2 
 
-以下の例は、ピクチャーライブラリが空であるかどうかを検査します:
+以下の例は、ピクチャライブラリが空であるかどうかを検査します:
 
 ```4d
  PICTURE LIBRARY LIST(alPicRef;asPicName)
@@ -70,7 +70,7 @@ displayed_sidebar: docs
 
 ## 例題 3 
 
-以下の例は、ピクチャーライブリをディスク上のドキュメントに書き出します::
+以下の例は、ピクチャライブリをディスク上のドキュメントに書き出します::
 
 ```4d
  PICTURE LIBRARY LIST($alPicRef;$asPicName)

@@ -75,7 +75,7 @@ XML のサポートのために、4D は Apache Foundation 社によって開発
 
 その後、多くのコマンドを使用して要素と属性を読み取り、解析し、書き込むことができます。エラーは [`XML GET ERROR`](../commands/xml-get-error) コマンドを使用して回復されます。最後にソースを閉じるために [`DOM CLOSE XML`](../commands/dom-close-xml) コマンドを呼び出すことを忘れないでください。
 
-XML BLOB パラメーターの使用に関する注記：歴史的な理由から、[`DOM Parse XML variable`](../commands/dom-parse-xml-variable) などの XML コマンドは BLOB 型のパラメーターを受け付けます。ただし、XML 構造はテキストとして格納することを強く推奨します。BLOB の使用はバイナリーデータの処理のために予約されています。XML 仕様に従い、BLOB がテキストを含む場合でも、バイナリーデータは自動的に Base64 でエンコードされます。
+XML BLOB パラメーターの使用に関する注記：歴史的な理由から、[`DOM Parse XML variable`](../commands/dom-parse-xml-variable) などの XML コマンドは BLOB 型のパラメーターを受け付けます。ただし、XML 構造はテキストとして格納することを強く推奨します。BLOB の使用はバイナリデータの処理のために予約されています。XML 仕様に従い、BLOB がテキストを含む場合でも、バイナリデータは自動的に Base64 でエンコードされます。
 
 
 ### XPath 記法のサポート

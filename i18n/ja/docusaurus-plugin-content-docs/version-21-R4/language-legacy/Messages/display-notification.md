@@ -32,7 +32,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.DISPLAY NOTIFICATION.Summary-->DISPLAY NOTIFICATION コマンドは ユーザーへの通知メッセージを表示します。<!-- END REF-->
 
-通常、このタイプのメッセージは、OSやアプリケーションがユーザーに外部イベント (ネットワーク切断、アップグレードの提供等) を知らせるために使用されます。
+通常、このタイプのメッセージは、OSやアプリケーションがユーザに外部イベント (ネットワーク切断、アップグレードの提供等) を知らせるために使用されます。
 
 * Windows環境下では、メッセージはタスクバーの通知領域に表示されます:  
 ![](../../assets/en/commands/pict1206085.en.png)

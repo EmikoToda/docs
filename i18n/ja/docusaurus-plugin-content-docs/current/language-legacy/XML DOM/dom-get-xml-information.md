@@ -36,7 +36,7 @@ displayed_sidebar: docs
 
 | 定数           | 型    | 値 | コメント                                                   |
 | ------------ | ---- | - | ------------------------------------------------------ |
-| DOCTYPE Name | 倍長整数 | 3 | DOCTYPE マーカーで定義されているルート要素の名前。                           |
+| DOCTYPE Name | 倍長整数 | 3 | DOCTYPE マーカで定義されているルート要素の名前。                           |
 | Document URI | 倍長整数 | 6 | DTDのURI                                                |
 | Encoding     | 倍長整数 | 4 | 使用されているエンコーディング (UTF-8, ISO...).                       |
 | PUBLIC ID    | 倍長整数 | 1 | ドキュメントが従うDTDの公開識別子 (FPI, DOCTYPE xxx PUBLICタグが存在する場合)。 |

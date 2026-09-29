@@ -32,7 +32,7 @@ displayed_sidebar: docs
 
 印刷ジョブはプロセスに対しローカルであり、各プロセスは独自の印刷設定(印刷オプション、カレントプリンター、など)を持ちます。複数の印刷ジョブを同時に4D 内で開くことができます。
 
-[CLOSE PRINTING JOB](close-printing-job.md) コマンドを呼び出してプリントジョブを終了し、印刷ドキュメントをプリンターに送信しなければなりません。このコマンドを呼び出さないと、印刷ドキュメントはスタックに置かれたままとなります。
+[CLOSE PRINTING JOB](close-printing-job.md) コマンドを呼び出してプリントジョブを終了し、印刷ドキュメントをプリンタに送信しなければなりません。このコマンドを呼び出さないと、印刷ドキュメントはスタックに置かれたままとなります。
 
 **OPEN PRINTING JOB** はカレントの印刷設定を使用します (デフォルト設定または[SET PRINT OPTION](set-print-option.md) コマンドで設定された設定)。印刷設定を変更するコマンドは**OPEN PRINTING JOB** が呼ばれる前に実行されなければなりません。そうでなければエラーが生成されます(例外として、Orientation option は[SET PRINT OPTION](set-print-option.md) コマンドを使用することで印刷ジョブ内でも設定することが可能です)。
 

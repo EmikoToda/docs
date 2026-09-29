@@ -35,7 +35,7 @@ displayed_sidebar: docs
 
 配列をサポートしている以外、このコマンドは[DOM Create XML element](dom-create-xml-element.md "DOM Create XML element")と同じです。 動作についてはこのコマンドの説明を参照してください。 
 
-さらに、DOM Create XML element arraysコマンドは*attribNamesArray*と*attribValuesArray*引数に複数の属性とその値のペアを配列として渡すことができます。*attribValuesArray*にはテキスト、日付、数値、そしてピクチャー型の配列を渡せます。4Dは自動で必要な変換を行います。新しい[XML SET OPTIONS](xml-set-options.md "XML SET OPTIONS")コマンドを使用してこの変換をコントロールできます。
+さらに、DOM Create XML element arraysコマンドは*attribNamesArray*と*attribValuesArray*引数に複数の属性とその値のペアを配列として渡すことができます。*attribValuesArray*にはテキスト、日付、数値、そしてピクチャ型の配列を渡せます。4Dは自動で必要な変換を行います。新しい[XML SET OPTIONS](xml-set-options.md "XML SET OPTIONS")コマンドを使用してこの変換をコントロールできます。
 
 配列は事前に作成されていなければなあらず、またペアで動作します。必要なだけ配列のペアを渡すことができ、またそれぞれのペアごとに必要なだけ要素を渡すことができます。
 

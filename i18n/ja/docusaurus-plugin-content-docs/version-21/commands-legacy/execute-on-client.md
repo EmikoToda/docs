@@ -30,7 +30,7 @@ displayed_sidebar: docs
 ## 説明 
 
 <!--REF #_command_.EXECUTE ON CLIENT.Summary-->EXECUTE ON CLIENT コマンドは、*clientName*という名前で登録されている4D Clientで、必要であれば*param1.<!-- END REF-->.. paramN*を引数とし、*methodName*メソッドを実行します。4D Clientの登録名は[REGISTER CLIENT](register-client.md "REGISTER CLIENT") コマンドで定義します。  
-このコマンドは、4D Clientまたは4D Serverのストアドプロシージャーで呼び出すことができます。
+このコマンドは、4D Clientまたは4D Serverのストアドプロシージャで呼び出すことができます。
 
 メソッドが1つ以上の引数を要求する場合、メソッドの名前の後に引数を渡します。  
 4D Client上でのメソッド実行は、クライアントワークステーション上で自動的に作成されたプロセス内で行われます。そのプロセス名は4D Clientの登録名です。

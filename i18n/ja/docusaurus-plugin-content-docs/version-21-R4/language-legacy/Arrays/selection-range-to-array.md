@@ -65,7 +65,7 @@ displayed_sidebar: docs
 
 **注:** *start* と *end* 引数のみを指定して**SELECTION RANGE TO ARRAY**コマンドを呼び出すことができます。 この特別なシンタックスを使用して、\* を指定した一連の[SELECTION TO ARRAY](../commands/selection-to-array)コマンドスタックを、限定してセレクションに対し実行することができます (例題4参照)。 
 
-**4D Server:** **SELECTION RANGE TO ARRAY**コマンドは4D Server用に最適化されています。各配列はサーバー上で作成され、配列全体がクライアントマシンに送信されます。
+**4D Server:** **SELECTION RANGE TO ARRAY**コマンドは4D Server用に最適化されています。各配列はサーバ上で作成され、配列全体がクライアントマシンに送信されます。
 
 **警告：** **SELECTION RANGE TO ARRAY**コマンドは、*start*と*end*で 指定した範囲やロードするデータサイズによって非常に大きな配列を作成する場合があります。配列はメモリ上に存在します。そのためコマンドの実行後、結果 をテストするのは良いことです。これを行うには、作成された配列のサイズをテストするか、[ON ERR CALL](../commands/on-err-call)を使用してコマンドの呼び出しをカバーします。
 
