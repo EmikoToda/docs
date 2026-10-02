@@ -26,7 +26,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Begin SQL.Summary-->**Begin SQL**はメソッドエディタで使用するキーワードで、プロセスのカレントデータソース (4Dの統合SQLエンジン、または[SQL LOGIN](../commands/sql-login)コマンドで特定されたソース) により解釈されるべき一連のコマンドの始まりを宣言します。<!-- END REF--> 
+<!--REF #_command_.Begin SQL.Summary-->**Begin SQL**はメソッドエディターで使用するキーワードで、プロセスのカレントデータソース (4Dの統合SQLエンジン、または[SQL LOGIN](../commands/sql-login)コマンドで特定されたソース) により解釈されるべき一連のコマンドの始まりを宣言します。<!-- END REF--> 
 
 **Begin SQL**で開始された一連のSQLコマンドは、[End SQL](../commands/end-sql)キーワードで閉じなければなりません。
 
@@ -51,7 +51,7 @@ displayed_sidebar: docs
  End SQL
 ```
 
-4Dの*デバッガ*は行ごとにSQL命令行を評価します。一行以上使用した方が好ましい場合もありますのでご注意下さい。
+4Dの*デバッガー*は行ごとにSQL命令行を評価します。一行以上使用した方が好ましい場合もありますのでご注意下さい。
 
 ## 参照 
 

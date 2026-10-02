@@ -34,7 +34,7 @@ displayed_sidebar: docs
 Get indexed string コマンドは以下の値を返します: 
 
 * <!--REF #_command_.Get indexed string.Summary-->ストリングリスト (“STR#”) リソースに格納された、IDが*resID*の文字列、または<!-- END REF-->
-* 開かれたXLIFFファイル中、'group'要素の'id'属性が*resID*である文字列 (後述の"XLIFFアーキテクチャとの互換性"を参照)。
+* 開かれたXLIFFファイル中、'group'要素の'id'属性が*resID*である文字列 (後述の"XLIFFアーキテクチャーとの互換性"を参照)。
 
 *strID*にストリングの番号を渡します。ストリングリストリソースのストリングは1からNの順に番号が振られます。ストリングリストリソースのすべてのストリング (およびそのストリング番号) を取得するには[STRING LIST TO ARRAY](string-list-to-array.md "STRING LIST TO ARRAY")を使用します。
 
@@ -44,9 +44,9 @@ Get indexed string コマンドは以下の値を返します:
 
 **Note:** ストリングリストリソースの各ストリングは、最大255文字を格納できます。
 
-### XLIFFアーキテクチャとの互換性 
+### XLIFFアーキテクチャーとの互換性 
 
-4D v11より、Get indexed string コマンドはXLIFFアーキテクチャと互換があります。コマンドはまず*resID*と*strID*に対応するリソースをすべての開かれたXLIFFファイル内で探します (*resFile* 引数が省略されていれば)。この場合、*resID*は**group**要素の**id**属性を表し、*strID*は**trans-unit**要素の**id**属性を表します。値が見つからない場合、コマンドは引き続き開かれたリソースファイルを検索します。4DにおけるXLIFFアーキテクチャに関する詳細は4D Design Referenceマニュアルを参照してください。
+4D v11より、Get indexed string コマンドはXLIFFアーキテクチャーと互換があります。コマンドはまず*resID*と*strID*に対応するリソースをすべての開かれたXLIFFファイル内で探します (*resFile* 引数が省略されていれば)。この場合、*resID*は**group**要素の**id**属性を表し、*strID*は**trans-unit**要素の**id**属性を表します。値が見つからない場合、コマンドは引き続き開かれたリソースファイルを検索します。4DにおけるXLIFFアーキテクチャーに関する詳細は4D Design Referenceマニュアルを参照してください。
 
 ## システム変数およびセット 
 

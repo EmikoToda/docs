@@ -17,7 +17,7 @@ displayed_sidebar: docs
 | lineHeight | Integer | &#8592; | 行の最小高さ (ピクセル単位) |
 | doubleClick | Integer | &#8592; | ダブルクリックでサブリストを展開/折り畳み 0 = Yes, 1= No |
 | multiSelections | Integer | &#8592; | 複数行選択: 0 = No, 1 = Yes |
-| editable | Integer | &#8592; | ユーザによる更新可: 0 = No, 1 = Yes |
+| editable | Integer | &#8592; | ユーザーによる更新可: 0 = No, 1 = Yes |
 </div>
 <!-- END REF-->
 
@@ -48,7 +48,7 @@ displayed_sidebar: docs
 
 引数 *editable*に1が代入された場合、レコードの選択リストとして表示されると、そのリストは編集可能になります。0が代入された場合、リストを編集することはできません。
 
-これらのプロパティは、[SET LIST PROPERTIES](../commands/set-list-properties) コマンドおよび、リストがデザインモードのリストエディタで作成された場合、または[SAVE LIST](../commands/save-list) コマンドを使用して保存された場合は、リストエディタで設定することができます。
+これらのプロパティは、[SET LIST PROPERTIES](../commands/set-list-properties) コマンドおよび、リストがデザインモードのリストエディターで作成された場合、または[SAVE LIST](../commands/save-list) コマンドを使用して保存された場合は、リストエディターで設定することができます。
 
 リストの表示様式、ノードアイコン、行の高さの最小値、およびダブルクリックの管理についての詳細は、[SET LIST PROPERTIES](../commands/set-list-properties) コマンドを参照してください。
 

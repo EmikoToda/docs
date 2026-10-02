@@ -33,7 +33,7 @@ displayed_sidebar: docs
 <!--REF #_command_.TEXT TO DOCUMENT.Summary-->**TEXT TO DOCUMENT**コマンドは、 *text* を直接ディスク上のファイルへと書き込みます。<!-- END REF-->引数には書き込みたいファイルへのパス名を渡します。ファイルが存在しない場合には新たに作成されます。このファイルが既にディスク上に存在する場合、以前の内容は消去されます。ただし既に開かれていた場合にはその中身はロックされエラーが静背されます。*fileName* に渡せるものは以下の通りです:
 
 * ファイル名のみ。例えば "myFile.txt" など。この場合、ファイルはアプリケーションのストラクチャーファイルの隣にある必要があります。
-* アプリケーションのストラクチャファイルからの相対パス。例えばWindowsでは "\\\\docs\\\\myFile.txt" またはmacOS では ":docs:myFile.txt"
+* アプリケーションのストラクチャーファイルからの相対パス。例えばWindowsでは "\\\\docs\\\\myFile.txt" またはmacOS では ":docs:myFile.txt"
 * 絶対パス。例えばWindowsでは "c:\\\\app\\\\docs\\\\myFile.txt" またはmacOS では "MacHD:docs:myFile.txt"
 
 ユーザーにドキュメントの名前や場所を指定することを可能にしたい場合は、 [Open document](../commands/open-document) コマンドまたは [Create document](../commands/create-document) コマンドに加え、 *Document* システム変数を使用して下さい。

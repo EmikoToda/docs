@@ -8,11 +8,11 @@ title: SQL ページ
 
 ## SQLサーバー公開
 
-doc.4d.com の [**4D SQLサーバの設定**](https://doc.4d.com/4Dv19R2/4D/19-R2/Configuration-of-4D-SQL-Server.300-5541563.ja.html) を参照ください。
+doc.4d.com の [**4D SQLサーバーの設定**](https://doc.4d.com/4Dv19R2/4D/19-R2/Configuration-of-4D-SQL-Server.300-5541563.ja.html) を参照ください。
 
 ## デフォルトスキーマ用のSQLサーバーアクセス権
 
-doc.4d.com の [**4D SQLサーバの設定**](https://doc.4d.com/4Dv19R2/4D/19-R2/Configuration-of-4D-SQL-Server.300-5541563.ja.html) を参照ください。
+doc.4d.com の [**4D SQLサーバーの設定**](https://doc.4d.com/4Dv19R2/4D/19-R2/Configuration-of-4D-SQL-Server.300-5541563.ja.html) を参照ください。
 
 
 ## SQLエンジンオプション

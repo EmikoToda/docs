@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| picture | Picture | &#8594; | ペーストボードに置くピクチャ |
+| picture | Picture | &#8594; | ペーストボードに置くピクチャー |
 </div>
 <!-- END REF-->
 
@@ -28,13 +28,13 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.SET PICTURE TO PASTEBOARD.Summary-->SET PICTURE TO PASTEBOARD は、ペーストボードを消去し、*picture*に渡したピクチャのコピーをペーストボードに置きます。<!-- END REF-->
+<!--REF #_command_.SET PICTURE TO PASTEBOARD.Summary-->SET PICTURE TO PASTEBOARD は、ペーストボードを消去し、*picture*に渡したピクチャーのコピーをペーストボードに置きます。<!-- END REF-->
 
 **Note:** コピー/ペースト操作では、ペーストボードはクリップボードと同じです。
 
-ピクチャは (jpeg, tif, png等の) ネイティブフォーマットで転送されます。
+ピクチャーは (jpeg, tif, png等の) ネイティブフォーマットで転送されます。
 
-ペーストボードにピクチャを置いた後、[GET PICTURE FROM PASTEBOARD](get-picture-from-pasteboard.md "GET PICTURE FROM PASTEBOARD") コマンド または例えば [GET PASTEBOARD DATA](get-pasteboard-data.md "GET PASTEBOARD DATA")**("com.4d.private.picture.gif";...)** を使用して、そのピクチャを取り出すことができます。
+ペーストボードにピクチャーを置いた後、[GET PICTURE FROM PASTEBOARD](get-picture-from-pasteboard.md "GET PICTURE FROM PASTEBOARD") コマンド または例えば [GET PASTEBOARD DATA](get-pasteboard-data.md "GET PASTEBOARD DATA")**("com.4d.private.picture.gif";...)** を使用して、そのピクチャーを取り出すことができます。
 
 ## 例題 
 
@@ -53,8 +53,8 @@ displayed_sidebar: docs
 
 ## システム変数およびセット 
 
-ピクチャのコピーが正しくペーストボードに置かれると、OK変数は1に設定されます。  
-ペーストボードにピクチャを置くためのメモリが十分にない場合、OK変数は0に設定されますが、エラーは生成されません。
+ピクチャーのコピーが正しくペーストボードに置かれると、OK変数は1に設定されます。  
+ペーストボードにピクチャーを置くためのメモリが十分にない場合、OK変数は0に設定されますが、エラーは生成されません。
 
 ## 参照 
 

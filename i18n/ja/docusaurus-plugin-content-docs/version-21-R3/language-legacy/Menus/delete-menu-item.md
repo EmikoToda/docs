@@ -39,7 +39,7 @@ displayed_sidebar: docs
 
 **Note:** *menu*に[MenuRef](# "Unique ID (16-character alphanumeric) of a menu")を渡した場合、*process* 引数は意味を持たず、無視されます。
 
-**Note:** ユーザインタフェースの一貫性を保つため、項目のないメニューを保持してはいけません。
+**Note:** ユーザーインターフェースの一貫性を保つため、項目のないメニューを保持してはいけません。
 
 ## 参照 
 

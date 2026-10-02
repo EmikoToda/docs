@@ -27,7 +27,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.WEB Is server running.Summary-->新しい**WEB Is server running** コマンド("*Webサーバ*"テーマ)は、4DがビルトインされているWebサーバーが動作中である場合にはTrueを、Webサーバーがオフである場合にはFalseを返します。<!-- END REF-->
+<!--REF #_command_.WEB Is server running.Summary-->新しい**WEB Is server running** コマンド("*Webサーバー*"テーマ)は、4DがビルトインされているWebサーバーが動作中である場合にはTrueを、Webサーバーがオフである場合にはFalseを返します。<!-- END REF-->
 
 このコマンドは、それが実行されたWebサーバーの動作状況を返します: 
 
@@ -36,8 +36,8 @@ displayed_sidebar: docs
 | 4D スタンドアローンアプリケーション               | ローカルの4D Web サーバー   |
 | 4D Server                         | 4D Server Web サーバー |
 | 4D リモートモード(ローカルプロセス)              | ローカルの4D Web サーバー   |
-| 4D リモートモード(4D Server ストアドプロシージャ―) | 4D Server Web サーバー |
-| 4D リモートモード(他の4D のリモートストアドプロシージャ―) | リモート4D Web サーバー    |
+| 4D リモートモード(4D Server ストアドプロシージャー―) | 4D Server Web サーバー |
+| 4D リモートモード(他の4D のリモートストアドプロシージャー―) | リモート4D Web サーバー    |
 
 ## 例題 
 

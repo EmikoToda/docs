@@ -35,7 +35,7 @@ displayed_sidebar: docs
 
 配列をサポートすること以外 (後述参照)、このコマンドは[SAX OPEN XML ELEMENT](sax-open-xml-element.md "SAX OPEN XML ELEMENT")と同じです。処理に関する情報はこのコマンドの説明を参照してください。 
 
-SAX OPEN XML ELEMENT ARRAYS は日付、数値、ブール、そしてピクチャ型の配列を*attribValuesArray*引数を受け入れます。4Dは自動で必要な変換を行います。[XML SET OPTIONS](xml-set-options.md "XML SET OPTIONS")コマンドを使用してこれらの変換を設定できます。
+SAX OPEN XML ELEMENT ARRAYS は日付、数値、ブール、そしてピクチャー型の配列を*attribValuesArray*引数を受け入れます。4Dは自動で必要な変換を行います。[XML SET OPTIONS](xml-set-options.md "XML SET OPTIONS")コマンドを使用してこれらの変換を設定できます。
 
 オプションでSAX OPEN XML ELEMENT ARRAYS コマンドは、*attribNamesArray*と*attribValuesArray*引数に属性名と属性値のペアを配列形式で渡すことができます。
 

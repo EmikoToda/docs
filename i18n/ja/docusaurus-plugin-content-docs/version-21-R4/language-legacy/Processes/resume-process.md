@@ -21,7 +21,7 @@ displayed_sidebar: docs
 
 *process*が事前に遅延されてる場合については、[PAUSE PROCESS](pause-process.md "PAUSE PROCESS")コマンドまたは[DELAY PROCESS](delay-process.md "DELAY PROCESS")コマンドを参照してください。プロセスが存在しない場合、このコマンドは何も行いません。 
 
-**Note:** クライアントマシンから、サーバーマシンで動作するストアドプロシージャ(*process*<0)に対して、このコマンドを使用してはいけません。
+**Note:** クライアントマシンから、サーバーマシンで動作するストアドプロシージャー(*process*<0)に対して、このコマンドを使用してはいけません。
 
 ## 参照 
 

@@ -29,7 +29,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Select RGB color.Summary-->**Select RGB color**コマンドはシステムカラー選択ウィンドウを表示し、ユーザによって選択された色のRGB値を返します。<!-- END REF-->
+<!--REF #_command_.Select RGB color.Summary-->**Select RGB color**コマンドはシステムカラー選択ウィンドウを表示し、ユーザーによって選択された色のRGB値を返します。<!-- END REF-->
 
 システムカラー選択ウィンドウは以下のように表示されます。
 

@@ -11,9 +11,9 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| picture | Picture | &#8594;  | 情報を取得するピクチャ |
-| width | Real | &#8592; | ピクチャの幅 (ピクセル) |
-| height | Real | &#8592; | ピクチャの高さ (ピクセル) |
+| picture | Picture | &#8594;  | 情報を取得するピクチャー |
+| width | Real | &#8592; | ピクチャーの幅 (ピクセル) |
+| height | Real | &#8592; | ピクチャーの高さ (ピクセル) |
 | hOffset | Integer | &#8592; | バックグランド表示の時の水平方向のオフセット |
 | vOffset | Integer | &#8592; | バックグランド表示の時の垂直方向のオフセット |
 | mode | Integer | &#8592; | バックグランド表示の時の転送モード |
@@ -33,11 +33,11 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.PICTURE PROPERTIES.Summary-->PICTURE PROPERTIES コマンドは、*picture*に渡したピクチャに関する情報を返します。<!-- END REF-->
+<!--REF #_command_.PICTURE PROPERTIES.Summary-->PICTURE PROPERTIES コマンドは、*picture*に渡したピクチャーに関する情報を返します。<!-- END REF-->
 
-引数*width*と*height*には、ピクチャの幅と高さを返します。
+引数*width*と*height*には、ピクチャーの幅と高さを返します。
 
-オプション引数*hOffset*、*vOffset*、*mode*には、フォーム上でバックグラウンド 表示フォーマットで表示された際のピクチャの水平、垂直位置と転送モードを返します。
+オプション引数*hOffset*、*vOffset*、*mode*には、フォーム上でバックグラウンド 表示フォーマットで表示された際のピクチャーの水平、垂直位置と転送モードを返します。
 
 ## 参照 
 

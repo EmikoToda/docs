@@ -32,7 +32,7 @@ displayed_sidebar: docs
 
 <!--REF #_command_.WA SET EXTERNAL LINKS FILTERS.Summary-->WA SET EXTERNAL LINKS FILTERS コマンドを使用して、*\** と *object* 引数で指定したWebエリアの外部リンクフィルタを設定できます。<!-- END REF-->外部リンクフィルタは、リンクを使用して現在のページに関連付けられているURLをWebエリアで開くか、マシンのデフォルトWebブラウザーで開くかどうか決定するために使用されます。
 
-ユーザが現在のページでリンクをクリックすると、4D は外部リンクフィルタのリストを照会し、リクエストされたURL をマシンのブラウザーで開くかチェックします。開く場合、URL に対応するページがWeb ブラウザーで開かれ、On Open External Linkフォームイベントが生成されます。そうでなければ ( デフォルト動作)、URL に対応するページはWeb エリア内に表示されます。URL の判定は*filtersArr*と*allowDenyArr* 配列の内容に基づき行われます。
+ユーザーが現在のページでリンクをクリックすると、4D は外部リンクフィルタのリストを照会し、リクエストされたURL をマシンのブラウザーで開くかチェックします。開く場合、URL に対応するページがWeb ブラウザーで開かれ、On Open External Linkフォームイベントが生成されます。そうでなければ ( デフォルト動作)、URL に対応するページはWeb エリア内に表示されます。URL の判定は*filtersArr*と*allowDenyArr* 配列の内容に基づき行われます。
 
 *filtersArr* と *allowDenyArr* 配列は同期されていなければなりません。
 

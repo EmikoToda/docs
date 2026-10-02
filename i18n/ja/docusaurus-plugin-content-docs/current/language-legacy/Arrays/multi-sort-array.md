@@ -13,7 +13,7 @@ displayed_sidebar: docs
 | --- | --- | --- | --- |
 | array | Array | &#8594; | ソートする配列 |
 | sort | Operator | &#8594; | `>` to sort by increasing order or  `<` to sort by decreasing order; if omitted no sort |
-| ptrArrayName | Pointer array | &#8594; | 配列ポインタの配列 |
+| ptrArrayName | Pointer array | &#8594; | 配列ポインターの配列 |
 | sortArrayName | Integer array | &#8594; | ソート順配列 (1 = 昇順にソート、-1 = 降順にソート、0 = 前のソートに同期) |
 </div>
 <!-- END REF-->
@@ -51,13 +51,13 @@ displayed_sidebar: docs
 
 この構文はより複雑であり、汎用的な開発では非常に有効です（例えば、あらゆるタイプの配列を並び替える汎用メソッドを作成したり、汎用的な [SORT ARRAY](../commands/sort-array) コマンドに相当するものを作成する場合）。
 
-*ptrArrayName* 引数には、配列ポインタの配列名を指定します。この配列の各要素は、並び替える配列を示すポインタです。*ptrArrayName*に指定した配列ポインタの順に、並び替えが実行されます。
+*ptrArrayName* 引数には、配列ポインターの配列名を指定します。この配列の各要素は、並び替える配列を示すポインターです。*ptrArrayName*に指定した配列ポインターの順に、並び替えが実行されます。
 
 **警告:** *ptrArrayName* がさすすべての配列は同じ要素数でなければなりません。
 
-**注意:** *ptrArrayName* は、ローカル（$ptrArrayName）、プロセス（ptrArrayName）、インタープロセス（<>ptrArrayName）タイプのポインタの配列を指定することができます。これとは逆に、この配列の要素が指す対象は、プロセス配列またはインタープロセス配列でなくてはなりません。
+**注意:** *ptrArrayName* は、ローカル（$ptrArrayName）、プロセス（ptrArrayName）、インタープロセス（<>ptrArrayName）タイプのポインターの配列を指定することができます。これとは逆に、この配列の要素が指す対象は、プロセス配列またはインタープロセス配列でなくてはなりません。
 
-*sortArrayName* 引数には配列名を渡し、この配列の各要素は対応するポインタ配列要素の並び替え順(-1、0または1)を示します:  
+*sortArrayName* 引数には配列名を渡し、この配列の各要素は対応するポインター配列要素の並び替え順(-1、0または1)を示します:  
 ・-1=降順並び替え  
 ・0=配列は並び替え条件として使用されませんが、他の並び替えに応じて並び替えられます。  
 ・1=昇順並び替え

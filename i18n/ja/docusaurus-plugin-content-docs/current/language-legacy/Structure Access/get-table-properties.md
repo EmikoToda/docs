@@ -11,12 +11,12 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| tablePtr | ポインター | &#8594; | テーブルポインタ |
+| tablePtr | ポインター | &#8594; | テーブルポインター |
 | tableNum | 倍長整数 | &#8594;  | テーブル番号 |
 | invisible | Boolean | &#8592; | True = 非表示、False = 表示 |
-| trigSaveNew | Boolean | &#8592; | True = トリガ“新規レコード保存時”が有効、 False = それ以外 |
-| trigSaveRec | Boolean | &#8592; | True = トリガ“既存レコード保存時”が有効、 False = それ以外 |
-| trigDelRec | Boolean | &#8592; | True = トリガ“レコード削除時”が有効、 False = それ以外 |
+| trigSaveNew | Boolean | &#8592; | True = トリガー“新規レコード保存時”が有効、 False = それ以外 |
+| trigSaveRec | Boolean | &#8592; | True = トリガー“既存レコード保存時”が有効、 False = それ以外 |
+| trigDelRec | Boolean | &#8592; | True = トリガー“レコード削除時”が有効、 False = それ以外 |
 | trigLoadRec | Boolean | &#8592; | ***使用しない (廃止) *** |
 </div>
 <!-- END REF-->
@@ -34,14 +34,14 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.GET TABLE PROPERTIES.Summary-->GET TABLE PROPERTIESコマンドは、*tablePtr* または*tableNum* で渡したテーブルのプロパティを返します。<!-- END REF-->最初の引数としてテーブル番号またはテーブルへのポインタを渡すことができます。
+<!--REF #_command_.GET TABLE PROPERTIES.Summary-->GET TABLE PROPERTIESコマンドは、*tablePtr* または*tableNum* で渡したテーブルのプロパティを返します。<!-- END REF-->最初の引数としてテーブル番号またはテーブルへのポインターを渡すことができます。
 
 このコマンドが実行されると
 
-* このテーブルに対し非表示属性が設定されている場合、引数*invisible* にTrue が返され、そうでない場合False が返されます。非表示属性を指定することにより、4D標準のエディタ（ラベル、チャート等）の使用時にテーブルを隠すことができます。
-* このテーブルに対し新規レコード保存時トリガが設定されている場合、引数*trigSaveNew* にTrue が返され、そうでない場合False が返されます。
-* このテーブルに対し既存レコード保存時トリガが設定されている場合、引数*trigSaveRec* にTrue が返され、そうでない場合False が返されます。
-* このテーブルに対しレコード削除時トリガが設定されている場合、引数*trigDelRec* にTrue が返され、そうでない場合False が返されます。
+* このテーブルに対し非表示属性が設定されている場合、引数*invisible* にTrue が返され、そうでない場合False が返されます。非表示属性を指定することにより、4D標準のエディター（ラベル、チャート等）の使用時にテーブルを隠すことができます。
+* このテーブルに対し新規レコード保存時トリガーが設定されている場合、引数*trigSaveNew* にTrue が返され、そうでない場合False が返されます。
+* このテーブルに対し既存レコード保存時トリガーが設定されている場合、引数*trigSaveRec* にTrue が返され、そうでない場合False が返されます。
+* このテーブルに対しレコード削除時トリガーが設定されている場合、引数*trigDelRec* にTrue が返され、そうでない場合False が返されます。
 
 ## 参照 
 

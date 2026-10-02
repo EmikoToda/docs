@@ -33,7 +33,7 @@ displayed_sidebar: docs
 <!--REF #_command_.Document to text.Summary-->**Document to text**コマンドは、ディスク上のファイルの中身を、4Dのテキスト変数またはテキストフィールドへと直接取り出すことができます。<!-- END REF-->引数には、読みだしたいファイル名またはパス名を渡します。ファイルはディスク上に存在している必要があり、そうでない場合にはエラーが生成されます。渡せるものは以下の通りです:
 
 * ファイル名のみ。例えば "myFile.txt" など。この場合、ファイルはアプリケーションのストラクチャーファイルの隣にある必要があります。
-* アプリケーションのストラクチャファイルからの相対パス。例えばWindowsでは "\\\\docs\\\\myFile.txt" またはmacOS では ":docs:myFile.txt"
+* アプリケーションのストラクチャーファイルからの相対パス。例えばWindowsでは "\\\\docs\\\\myFile.txt" またはmacOS では ":docs:myFile.txt"
 * 絶対パス。例えばWindowsでは "c:\\\\app\\\\docs\\\\myFile.txt" またはmacOS では "MacHD:docs:myFile.txt"
 
 *charSet* 引数には、ファイルの中身を読みだす際の文字コードを渡します。標準の文字コード名(例えば“ISO-8859-1” や “UTF-8”)を渡す事もできますし、文字コードの MIBEnum ID (倍長整数)を渡す事もできます。4Dによってサポートされている文字コードの一覧の詳細な情報に関しては、[CONVERT FROM TEXT](../commands/convert-from-text) コマンドの詳細を参照して下さい。

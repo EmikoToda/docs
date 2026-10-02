@@ -181,7 +181,7 @@ ECDSA キーのみ: <!-- REF #CryptoKey.curve.Summary -->キーの楕円曲線�
 | プロパティ             | 型    | 説明                                                                                        |
 | ----------------- | ---- | ----------------------------------------------------------------------------------------- |
 | hash              | text | 使用する Digest アルゴリズム。例: "SHA256", "SHA384", "SHA512"。                                       |
-| encodingEncrypted | text | 復号するバイナリ形式に `message` を変換するためのエンコーディング。可能な値: "Base64" または "Base64URL"。デフォルト値: "Base64"    |
+| encodingEncrypted | text | 復号するバイナリー形式に `message` を変換するためのエンコーディング。可能な値: "Base64" または "Base64URL"。デフォルト値: "Base64"    |
 | encodingDecrypted | text | バイナリーの復号メッセージを文字列に変換するためのエンコーディング。可能な値: "UTF-8", "Base64" または "Base64URL"。デフォルト値: "UTF-8" |
 
 #### *戻り値*
@@ -231,7 +231,7 @@ ECDSA キーのみ: <!-- REF #CryptoKey.curve.Summary -->キーの楕円曲線�
 | ----------------- | ---- | ----------------------------------------------------------------------------------------------- |
 | hash              | text | 使用する Digest アルゴリズム。例: "SHA256", "SHA384", "SHA512"。                                             |
 | encodingEncrypted | text | バイナリーの暗号化メッセージを文字列に変換するためのエンコーディング。可能な値: "Base64" または "Base64URL"。デフォルト値: "Base64"              |
-| encodingDecrypted | text | 暗号化するバイナリ形式に `message` を変換するためのエンコーディング。可能な値: "UTF-8", "Base64" または "Base64URL"。デフォルト値: "UTF-8" |
+| encodingDecrypted | text | 暗号化するバイナリー形式に `message` を変換するためのエンコーディング。可能な値: "UTF-8", "Base64" または "Base64URL"。デフォルト値: "UTF-8" |
 
 #### *戻り値*
 

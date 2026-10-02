@@ -26,7 +26,7 @@ SAVE RELATED ONEは、ロックされたレコードを保存しません。こ�
 [CREATE RELATED ONE](../commands/create-related-one)  
 [Locked](../commands/locked)  
 [RELATE ONE](../commands/relate-one)  
-*トリガ*  
+*トリガー*  
 
 ## プロパティ
 

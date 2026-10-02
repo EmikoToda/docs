@@ -11,13 +11,13 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| 戻り値 | Pointer | &#8592; | デフォルトテーブルへのポインタ |
+| 戻り値 | Pointer | &#8592; | デフォルトテーブルへのポインター |
 </div>
 <!-- END REF-->
 
 ## 説明 
 
-<!--REF #_command_.Current default table.Summary-->Current default table は、カレントプロセスに対して[DEFAULT TABLE](default-table.md "DEFAULT TABLE")コマンドで最後に指定されたテーブルのポインタを返します。<!-- END REF-->
+<!--REF #_command_.Current default table.Summary-->Current default table は、カレントプロセスに対して[DEFAULT TABLE](default-table.md "DEFAULT TABLE")コマンドで最後に指定されたテーブルのポインターを返します。<!-- END REF-->
 
 ## 例題 
 

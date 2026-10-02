@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| picture | Picture | &#8594; | メタデータを設定するピクチャ |
+| picture | Picture | &#8594; | メタデータを設定するピクチャー |
 | metaName | Text | &#8594; | 設定するブロックの名前またはパス |
 | metaContents | Variable | &#8594; | メタデータの内容 |
 </div>
@@ -29,9 +29,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.SET PICTURE METADATA.Summary-->SET PICTURE METADATA コマンドを使用すると、picture (4Dピクチャフィールドまたは変数) 内のメタデータ (またはメタタグ) の内容を書き込んだり更新したりできます。<!-- END REF-->
+<!--REF #_command_.SET PICTURE METADATA.Summary-->SET PICTURE METADATA コマンドを使用すると、picture (4Dピクチャーフィールドまたは変数) 内のメタデータ (またはメタタグ) の内容を書き込んだり更新したりできます。<!-- END REF-->
 
-メタデータはピクチャに挿入された追加の情報です。4Dでは4タイプの標準メタデータEXIF, GPS, IPTC そして TIFFを処理できます。
+メタデータはピクチャーに挿入された追加の情報です。4Dでは4タイプの標準メタデータEXIF, GPS, IPTC そして TIFFを処理できます。
 
 **Note:** これらのメタデータタイプについては以下のドキュメントを参照できます: <http://www.iptc.org/std/IIM/4.1/specification/IIMV4.1.pdf> (IPTC) および <http://exif.org/Exif2-2.PDF> (TIFF, EXIF, GPS). 
 

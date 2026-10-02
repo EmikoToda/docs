@@ -11,14 +11,14 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| picture | Picture | &#8594; | サイズを知りたいピクチャ |
-| 戻り値 | Integer | &#8592; | ピクチャのサイズ (バイト) |
+| picture | Picture | &#8594; | サイズを知りたいピクチャー |
+| 戻り値 | Integer | &#8592; | ピクチャーのサイズ (バイト) |
 </div>
 <!-- END REF-->
 
 ## 説明 
 
-<!--REF #_command_.Picture size.Summary-->Picture sizeコマンドは指定したピクチャのサイズをバイト単位で返します。<!-- END REF-->
+<!--REF #_command_.Picture size.Summary-->Picture sizeコマンドは指定したピクチャーのサイズをバイト単位で返します。<!-- END REF-->
 
 ## 参照 
 

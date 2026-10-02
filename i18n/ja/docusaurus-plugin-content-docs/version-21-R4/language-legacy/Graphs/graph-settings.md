@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| graph | Picture | &#8594; | グラフエリアまたはピクチャ変数 |
+| graph | Picture | &#8594; | グラフエリアまたはピクチャー変数 |
 | xmin | Integer, Date, Time | &#8594; | 比例グラフのｘ軸の最小値  (線または点グラフのプロットのみ) |
 | xmax | Integer, Date, Time | &#8594; | 比例グラフのｘ軸の最大値  (線または点グラフのプロットのみ) |
 | ymin | Integer | &#8594; | ｙ軸の最小値 |

@@ -31,7 +31,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.DOM Find XML element.Summary-->DOM Find XML element コマンドはXMLストラクチャ中で特定のXML要素を検索するために使用します。<!-- END REF-->検索は*elementRef* 引数で指定された要素から開始されます。
+<!--REF #_command_.DOM Find XML element.Summary-->DOM Find XML element コマンドはXMLストラクチャー中で特定のXML要素を検索するために使用します。<!-- END REF-->検索は*elementRef* 引数で指定された要素から開始されます。
 
 探すXMLノードはXPath記法を使用して *xPath* 引数に指定します (詳細な情報については、*XPath記法のサポート (DOM)* の章を参照してください)。以下のパス式がサポートされます:
 

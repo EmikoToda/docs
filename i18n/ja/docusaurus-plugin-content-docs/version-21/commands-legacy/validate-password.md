@@ -11,7 +11,7 @@ displayed_sidebar: docs
 
 | 引数 | 型 |  | 説明 |
 | --- | --- | --- | --- |
-| userID | Integer, Text | &#8594;  | ユニークなユーザID |
+| userID | Integer, Text | &#8594;  | ユニークなユーザーID |
 | password | Text | &#8594;  | 暗号化されていないパスワード |
 | digest | Boolean | &#8594;  | Digest password = True, <br/>Plain-text password (default) = False |
 | 戻り値 | Boolean | &#8592; | True = 有効なパスワード False = 無効なパスワード |
@@ -32,7 +32,7 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.Validate password.Summary-->Validate password コマンドは引数 *password* に渡された文字列が、引数 *userID* に渡されたID番号または名前を持つユーザアカウントのパスワードである場合、Trueを返します。<!-- END REF--> 
+<!--REF #_command_.Validate password.Summary-->Validate password コマンドは引数 *password* に渡された文字列が、引数 *userID* に渡されたID番号または名前を持つユーザーアカウントのパスワードである場合、Trueを返します。<!-- END REF--> 
 
 任意の *digest* 引数は、 *password* 引数に含まれるパスワードが標準テキストのパスワードかハッシュドパスワード(ダイジェストモード)かを指定します:
 
@@ -41,11 +41,11 @@ displayed_sidebar: docs
 
 この引数はデータベース認証メソッド、特に [On REST Authentication データベースメソッド](on-rest-authentication-database-method.md) を使用しているときに有用です。
 
-フラッディング ( ブルートフォース攻撃 ) 、言い換えれば複数のユーザ名とパスワードの組み合わせによる試みを防ぐために、コマンドは遅れて実行されます。その結果、このコマンドを4回呼び出す と、10秒間の遅延が発生します。この遅れは、ワークステーション全体を通して発生します。
+フラッディング ( ブルートフォース攻撃 ) 、言い換えれば複数のユーザー名とパスワードの組み合わせによる試みを防ぐために、コマンドは遅れて実行されます。その結果、このコマンドを4回呼び出す と、10秒間の遅延が発生します。この遅れは、ワークステーション全体を通して発生します。
 
 ## 例題 1 
 
-以下の例題を使用して、ユーザ “Hardy” のパスワードが “Laurel” であるかどうかを調べます。
+以下の例題を使用して、ユーザー “Hardy” のパスワードが “Laurel” であるかどうかを調べます。
 
 ```4d
  GET USER LIST(atUserName;alUserID)

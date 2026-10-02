@@ -17,9 +17,9 @@ displayed_sidebar: docs
 
 ## 説明 
 
-<!--REF #_command_.NEXT RECORD.Summary-->NEXT RECORDは、カレントプロセスの*aTable*のカレントセレクションにある次のレコードへカレントレコードポインタを移動します。<!-- END REF-->カレントセレクションが空の場合、あるいは[Before Selection](before-selection.md "Before Selection")または[End selection](end-selection.md "End selection")がTRUEの場合、NEXT RECORDは何も行いません。
+<!--REF #_command_.NEXT RECORD.Summary-->NEXT RECORDは、カレントプロセスの*aTable*のカレントセレクションにある次のレコードへカレントレコードポインターを移動します。<!-- END REF-->カレントセレクションが空の場合、あるいは[Before Selection](before-selection.md "Before Selection")または[End selection](end-selection.md "End selection")がTRUEの場合、NEXT RECORDは何も行いません。
 
-NEXT RECORDでカレントセレクションの最後を超えてカレントレコードポインタを移動した場合、[End selection](end-selection.md "End selection")はTRUEを返しカレントレコードはなくなります。この場合、[FIRST RECORD](first-record.md "FIRST RECORD")、[LAST RECORD](last-record.md "LAST RECORD")、[GOTO SELECTED RECORD](goto-selected-record.md "GOTO SELECTED RECORD")コマンドを使用して、カレントレコードポインタをカレントセレクション内に戻します。
+NEXT RECORDでカレントセレクションの最後を超えてカレントレコードポインターを移動した場合、[End selection](end-selection.md "End selection")はTRUEを返しカレントレコードはなくなります。この場合、[FIRST RECORD](first-record.md "FIRST RECORD")、[LAST RECORD](last-record.md "LAST RECORD")、[GOTO SELECTED RECORD](goto-selected-record.md "GOTO SELECTED RECORD")コマンドを使用して、カレントレコードポインターをカレントセレクション内に戻します。
 
 ## 例題 
 
