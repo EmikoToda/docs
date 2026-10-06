@@ -84,7 +84,7 @@ jobs:
         run: node tools/i18n-sync/i18n-sync.mjs
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@c5a7806660adbe173f04e3e038b0ccdcd758773c # v6
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           # Manual runs get a unique branch so they do not overwrite a previous PR for the same commit
           branch: i18n/auto-pt-${{ github.sha }}${{ github.event_name == 'workflow_dispatch' && format('-{0}', github.run_id) || '' }}
