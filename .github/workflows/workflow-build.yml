@@ -44,8 +44,9 @@ jobs:
         env:
           LANGUAGE_TO_BUILD: ${{ matrix.language }}
         run: |
-          npm run build -- --locale $LANGUAGE_TO_BUILD
-          if [ "$LANGUAGE_TO_BUILD" != 'en' ]; then
+          if [ "$LANGUAGE_TO_BUILD" = 'en' ]; then
+            npm run build -- --locale $LANGUAGE_TO_BUILD
+          else
             npm run build -- --locale $LANGUAGE_TO_BUILD --out-dir ./build/$LANGUAGE_TO_BUILD
           fi
       - name: Google verification
